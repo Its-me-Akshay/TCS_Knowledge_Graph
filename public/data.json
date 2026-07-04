@@ -1,0 +1,6086 @@
+{
+  "meta": {
+    "source": "SBA 7(a) FOIA (synthetic sample, deterministic seed)",
+    "fiscalYear": 2023,
+    "state": "TX",
+    "totalLoans": 350
+  },
+  "sectors": [
+    {
+      "id": "sector-manufacturing",
+      "name": "Manufacturing",
+      "naics": "31-33"
+    },
+    {
+      "id": "sector-retail",
+      "name": "Retail",
+      "naics": "44-45"
+    },
+    {
+      "id": "sector-technology",
+      "name": "Technology",
+      "naics": "51-54"
+    },
+    {
+      "id": "sector-healthcare",
+      "name": "Healthcare",
+      "naics": "62"
+    }
+  ],
+  "lenders": [
+    {
+      "id": "lender-regional-development-bank",
+      "name": "Regional Development Bank"
+    },
+    {
+      "id": "lender-highland-plains-trust",
+      "name": "Highland Plains Trust"
+    },
+    {
+      "id": "lender-ironwood-business-bank",
+      "name": "Ironwood Business Bank"
+    },
+    {
+      "id": "lender-silverline-federal",
+      "name": "Silverline Federal"
+    },
+    {
+      "id": "lender-texas-capital-bank",
+      "name": "Texas Capital Bank"
+    },
+    {
+      "id": "lender-bluepeak-bank",
+      "name": "BluePeak Bank"
+    },
+    {
+      "id": "lender-rio-grande-financial",
+      "name": "Rio Grande Financial"
+    },
+    {
+      "id": "lender-prosperity-regional",
+      "name": "Prosperity Regional"
+    },
+    {
+      "id": "lender-pecos-valley-bank",
+      "name": "Pecos Valley Bank"
+    },
+    {
+      "id": "lender-frontier-commerce-bank",
+      "name": "Frontier Commerce Bank"
+    },
+    {
+      "id": "lender-gulf-coast-savings",
+      "name": "Gulf Coast Savings"
+    },
+    {
+      "id": "lender-southwest-trust",
+      "name": "Southwest Trust"
+    },
+    {
+      "id": "lender-trinity-merchant-bank",
+      "name": "Trinity Merchant Bank"
+    },
+    {
+      "id": "lender-heritage-trust-bank",
+      "name": "Heritage Trust Bank"
+    },
+    {
+      "id": "lender-sabine-river-trust",
+      "name": "Sabine River Trust"
+    },
+    {
+      "id": "lender-mockingbird-bank",
+      "name": "Mockingbird Bank"
+    },
+    {
+      "id": "lender-cattleman-s-national",
+      "name": "Cattleman's National"
+    },
+    {
+      "id": "lender-first-national-bank",
+      "name": "First National Bank"
+    },
+    {
+      "id": "lender-copperhead-credit-union",
+      "name": "Copperhead Credit Union"
+    },
+    {
+      "id": "lender-alamo-business-bank",
+      "name": "Alamo Business Bank"
+    },
+    {
+      "id": "lender-bayou-city-bank",
+      "name": "Bayou City Bank"
+    },
+    {
+      "id": "lender-live-oak-financial",
+      "name": "Live Oak Financial"
+    },
+    {
+      "id": "lender-lone-star-community-bank",
+      "name": "Lone Star Community Bank"
+    },
+    {
+      "id": "lender-meridian-west-bank",
+      "name": "Meridian West Bank"
+    },
+    {
+      "id": "lender-panhandle-federal",
+      "name": "Panhandle Federal"
+    }
+  ],
+  "borrowers": [
+    {
+      "id": "borrower-0001",
+      "name": "Crimson Fabricators",
+      "sectorId": "sector-manufacturing",
+      "city": "Dallas"
+    },
+    {
+      "id": "borrower-0002",
+      "name": "Star Foundry",
+      "sectorId": "sector-manufacturing",
+      "city": "Austin"
+    },
+    {
+      "id": "borrower-0003",
+      "name": "Nomad Metalworks",
+      "sectorId": "sector-manufacturing",
+      "city": "Lubbock"
+    },
+    {
+      "id": "borrower-0004",
+      "name": "Canyon Industries",
+      "sectorId": "sector-manufacturing",
+      "city": "Irving"
+    },
+    {
+      "id": "borrower-0005",
+      "name": "Mesa Metalworks",
+      "sectorId": "sector-manufacturing",
+      "city": "El Paso"
+    },
+    {
+      "id": "borrower-0006",
+      "name": "Mesa Industries",
+      "sectorId": "sector-manufacturing",
+      "city": "Arlington"
+    },
+    {
+      "id": "borrower-0007",
+      "name": "Sun Machining",
+      "sectorId": "sector-manufacturing",
+      "city": "Waco"
+    },
+    {
+      "id": "borrower-0008",
+      "name": "Canyon Industries",
+      "sectorId": "sector-manufacturing",
+      "city": "Austin"
+    },
+    {
+      "id": "borrower-0009",
+      "name": "Titan Fabricators",
+      "sectorId": "sector-manufacturing",
+      "city": "Arlington"
+    },
+    {
+      "id": "borrower-0010",
+      "name": "Nova Precision Parts",
+      "sectorId": "sector-manufacturing",
+      "city": "Frisco"
+    },
+    {
+      "id": "borrower-0011",
+      "name": "Sun Assembly Co.",
+      "sectorId": "sector-manufacturing",
+      "city": "Lubbock"
+    },
+    {
+      "id": "borrower-0012",
+      "name": "Pioneer Assembly Co.",
+      "sectorId": "sector-manufacturing",
+      "city": "McKinney"
+    },
+    {
+      "id": "borrower-0013",
+      "name": "Titan Molding",
+      "sectorId": "sector-manufacturing",
+      "city": "Plano"
+    },
+    {
+      "id": "borrower-0014",
+      "name": "Alpha Steelworks",
+      "sectorId": "sector-manufacturing",
+      "city": "McKinney"
+    },
+    {
+      "id": "borrower-0015",
+      "name": "Iron Metalworks",
+      "sectorId": "sector-manufacturing",
+      "city": "Frisco"
+    },
+    {
+      "id": "borrower-0016",
+      "name": "Onyx Foundry",
+      "sectorId": "sector-manufacturing",
+      "city": "Lubbock"
+    },
+    {
+      "id": "borrower-0017",
+      "name": "Gamma Fabricators",
+      "sectorId": "sector-manufacturing",
+      "city": "Lubbock"
+    },
+    {
+      "id": "borrower-0018",
+      "name": "Sun Fabricators",
+      "sectorId": "sector-manufacturing",
+      "city": "Waco"
+    },
+    {
+      "id": "borrower-0019",
+      "name": "Cyber Industries",
+      "sectorId": "sector-manufacturing",
+      "city": "Austin"
+    },
+    {
+      "id": "borrower-0020",
+      "name": "Bolt Fabricators",
+      "sectorId": "sector-manufacturing",
+      "city": "El Paso"
+    },
+    {
+      "id": "borrower-0021",
+      "name": "Silver Assembly Co.",
+      "sectorId": "sector-manufacturing",
+      "city": "Dallas"
+    },
+    {
+      "id": "borrower-0022",
+      "name": "Silver Molding",
+      "sectorId": "sector-manufacturing",
+      "city": "Corpus Christi"
+    },
+    {
+      "id": "borrower-0023",
+      "name": "Loop Foundry",
+      "sectorId": "sector-manufacturing",
+      "city": "Dallas"
+    },
+    {
+      "id": "borrower-0024",
+      "name": "Vertex Industries",
+      "sectorId": "sector-manufacturing",
+      "city": "Dallas"
+    },
+    {
+      "id": "borrower-0025",
+      "name": "Nova Steelworks",
+      "sectorId": "sector-manufacturing",
+      "city": "Frisco"
+    },
+    {
+      "id": "borrower-0026",
+      "name": "Redwood Steelworks",
+      "sectorId": "sector-manufacturing",
+      "city": "Laredo"
+    },
+    {
+      "id": "borrower-0027",
+      "name": "Cyber Assembly Co.",
+      "sectorId": "sector-manufacturing",
+      "city": "Houston"
+    },
+    {
+      "id": "borrower-0028",
+      "name": "Sun Precision Parts",
+      "sectorId": "sector-manufacturing",
+      "city": "Dallas"
+    },
+    {
+      "id": "borrower-0029",
+      "name": "Nomad Composites",
+      "sectorId": "sector-manufacturing",
+      "city": "San Antonio"
+    },
+    {
+      "id": "borrower-0030",
+      "name": "Compass Fabricators",
+      "sectorId": "sector-manufacturing",
+      "city": "Frisco"
+    },
+    {
+      "id": "borrower-0031",
+      "name": "Node Precision Parts",
+      "sectorId": "sector-manufacturing",
+      "city": "San Antonio"
+    },
+    {
+      "id": "borrower-0032",
+      "name": "Bolt Machining",
+      "sectorId": "sector-manufacturing",
+      "city": "Laredo"
+    },
+    {
+      "id": "borrower-0033",
+      "name": "Omega Metalworks",
+      "sectorId": "sector-manufacturing",
+      "city": "Lubbock"
+    },
+    {
+      "id": "borrower-0034",
+      "name": "Compass Steelworks",
+      "sectorId": "sector-manufacturing",
+      "city": "Fort Worth"
+    },
+    {
+      "id": "borrower-0035",
+      "name": "Vertex Steelworks",
+      "sectorId": "sector-manufacturing",
+      "city": "Houston"
+    },
+    {
+      "id": "borrower-0036",
+      "name": "Titan Molding",
+      "sectorId": "sector-manufacturing",
+      "city": "Fort Worth"
+    },
+    {
+      "id": "borrower-0037",
+      "name": "Compass Molding",
+      "sectorId": "sector-manufacturing",
+      "city": "San Antonio"
+    },
+    {
+      "id": "borrower-0038",
+      "name": "Bolt Machining",
+      "sectorId": "sector-manufacturing",
+      "city": "El Paso"
+    },
+    {
+      "id": "borrower-0039",
+      "name": "Beta Assembly Co.",
+      "sectorId": "sector-manufacturing",
+      "city": "Frisco"
+    },
+    {
+      "id": "borrower-0040",
+      "name": "Loop Metalworks",
+      "sectorId": "sector-manufacturing",
+      "city": "Austin"
+    },
+    {
+      "id": "borrower-0041",
+      "name": "Nomad Molding",
+      "sectorId": "sector-manufacturing",
+      "city": "Corpus Christi"
+    },
+    {
+      "id": "borrower-0042",
+      "name": "Loop Steelworks",
+      "sectorId": "sector-manufacturing",
+      "city": "El Paso"
+    },
+    {
+      "id": "borrower-0043",
+      "name": "Canyon Boutique",
+      "sectorId": "sector-retail",
+      "city": "Waco"
+    },
+    {
+      "id": "borrower-0044",
+      "name": "Falcon Marketplace",
+      "sectorId": "sector-retail",
+      "city": "McKinney"
+    },
+    {
+      "id": "borrower-0045",
+      "name": "Omega Provisions",
+      "sectorId": "sector-retail",
+      "city": "Lubbock"
+    },
+    {
+      "id": "borrower-0046",
+      "name": "River Boutique",
+      "sectorId": "sector-retail",
+      "city": "Corpus Christi"
+    },
+    {
+      "id": "borrower-0047",
+      "name": "Prairie Grocers",
+      "sectorId": "sector-retail",
+      "city": "Frisco"
+    },
+    {
+      "id": "borrower-0048",
+      "name": "Bluebonnet Apparel",
+      "sectorId": "sector-retail",
+      "city": "Arlington"
+    },
+    {
+      "id": "borrower-0049",
+      "name": "Onyx Home Goods",
+      "sectorId": "sector-retail",
+      "city": "Dallas"
+    },
+    {
+      "id": "borrower-0050",
+      "name": "Emerald Boutique",
+      "sectorId": "sector-retail",
+      "city": "Austin"
+    },
+    {
+      "id": "borrower-0051",
+      "name": "Node Apparel",
+      "sectorId": "sector-retail",
+      "city": "Plano"
+    },
+    {
+      "id": "borrower-0052",
+      "name": "Sun Apparel",
+      "sectorId": "sector-retail",
+      "city": "Irving"
+    },
+    {
+      "id": "borrower-0053",
+      "name": "Nomad Trading Co.",
+      "sectorId": "sector-retail",
+      "city": "Frisco"
+    },
+    {
+      "id": "borrower-0054",
+      "name": "Apex Mercantile",
+      "sectorId": "sector-retail",
+      "city": "Dallas"
+    },
+    {
+      "id": "borrower-0055",
+      "name": "Delta Grocers",
+      "sectorId": "sector-retail",
+      "city": "Plano"
+    },
+    {
+      "id": "borrower-0056",
+      "name": "Alpha Trading Co.",
+      "sectorId": "sector-retail",
+      "city": "Houston"
+    },
+    {
+      "id": "borrower-0057",
+      "name": "Titan Home Goods",
+      "sectorId": "sector-retail",
+      "city": "Austin"
+    },
+    {
+      "id": "borrower-0058",
+      "name": "Crimson Mercantile",
+      "sectorId": "sector-retail",
+      "city": "Plano"
+    },
+    {
+      "id": "borrower-0059",
+      "name": "Crimson Outfitters",
+      "sectorId": "sector-retail",
+      "city": "Irving"
+    },
+    {
+      "id": "borrower-0060",
+      "name": "Ridge Apparel",
+      "sectorId": "sector-retail",
+      "city": "Frisco"
+    },
+    {
+      "id": "borrower-0061",
+      "name": "Vertex Marketplace",
+      "sectorId": "sector-retail",
+      "city": "Irving"
+    },
+    {
+      "id": "borrower-0062",
+      "name": "Crimson Mercantile",
+      "sectorId": "sector-retail",
+      "city": "San Antonio"
+    },
+    {
+      "id": "borrower-0063",
+      "name": "Copper Grocers",
+      "sectorId": "sector-retail",
+      "city": "San Antonio"
+    },
+    {
+      "id": "borrower-0064",
+      "name": "Node Trading Co.",
+      "sectorId": "sector-retail",
+      "city": "Arlington"
+    },
+    {
+      "id": "borrower-0065",
+      "name": "Delta Trading Co.",
+      "sectorId": "sector-retail",
+      "city": "Arlington"
+    },
+    {
+      "id": "borrower-0066",
+      "name": "Gamma Apparel",
+      "sectorId": "sector-retail",
+      "city": "El Paso"
+    },
+    {
+      "id": "borrower-0067",
+      "name": "Phoenix Apparel",
+      "sectorId": "sector-retail",
+      "city": "Corpus Christi"
+    },
+    {
+      "id": "borrower-0068",
+      "name": "Star Marketplace",
+      "sectorId": "sector-retail",
+      "city": "Arlington"
+    },
+    {
+      "id": "borrower-0069",
+      "name": "Omega Apparel",
+      "sectorId": "sector-retail",
+      "city": "El Paso"
+    },
+    {
+      "id": "borrower-0070",
+      "name": "Ledger Outfitters",
+      "sectorId": "sector-retail",
+      "city": "Laredo"
+    },
+    {
+      "id": "borrower-0071",
+      "name": "Ranger Provisions",
+      "sectorId": "sector-retail",
+      "city": "San Antonio"
+    },
+    {
+      "id": "borrower-0072",
+      "name": "River Marketplace",
+      "sectorId": "sector-retail",
+      "city": "Plano"
+    },
+    {
+      "id": "borrower-0073",
+      "name": "Longhorn Marketplace",
+      "sectorId": "sector-retail",
+      "city": "Irving"
+    },
+    {
+      "id": "borrower-0074",
+      "name": "Golden Marketplace",
+      "sectorId": "sector-retail",
+      "city": "El Paso"
+    },
+    {
+      "id": "borrower-0075",
+      "name": "Bluebonnet Apparel",
+      "sectorId": "sector-retail",
+      "city": "Corpus Christi"
+    },
+    {
+      "id": "borrower-0076",
+      "name": "Emerald Mercantile",
+      "sectorId": "sector-retail",
+      "city": "Irving"
+    },
+    {
+      "id": "borrower-0077",
+      "name": "Compass Outfitters",
+      "sectorId": "sector-retail",
+      "city": "Fort Worth"
+    },
+    {
+      "id": "borrower-0078",
+      "name": "Apex Boutique",
+      "sectorId": "sector-retail",
+      "city": "Plano"
+    },
+    {
+      "id": "borrower-0079",
+      "name": "Pearl Home Goods",
+      "sectorId": "sector-retail",
+      "city": "Laredo"
+    },
+    {
+      "id": "borrower-0080",
+      "name": "Prairie Outfitters",
+      "sectorId": "sector-retail",
+      "city": "San Antonio"
+    },
+    {
+      "id": "borrower-0081",
+      "name": "Hive Grocers",
+      "sectorId": "sector-retail",
+      "city": "El Paso"
+    },
+    {
+      "id": "borrower-0082",
+      "name": "Onyx Marketplace",
+      "sectorId": "sector-retail",
+      "city": "Corpus Christi"
+    },
+    {
+      "id": "borrower-0083",
+      "name": "Crimson Marketplace",
+      "sectorId": "sector-retail",
+      "city": "Houston"
+    },
+    {
+      "id": "borrower-0084",
+      "name": "Bluebonnet Home Goods",
+      "sectorId": "sector-retail",
+      "city": "Austin"
+    },
+    {
+      "id": "borrower-0085",
+      "name": "Silver Apparel",
+      "sectorId": "sector-retail",
+      "city": "Fort Worth"
+    },
+    {
+      "id": "borrower-0086",
+      "name": "Quantum Provisions",
+      "sectorId": "sector-retail",
+      "city": "Irving"
+    },
+    {
+      "id": "borrower-0087",
+      "name": "Emerald Apparel",
+      "sectorId": "sector-retail",
+      "city": "McKinney"
+    },
+    {
+      "id": "borrower-0088",
+      "name": "Alpha Marketplace",
+      "sectorId": "sector-retail",
+      "city": "Houston"
+    },
+    {
+      "id": "borrower-0089",
+      "name": "Copper Apparel",
+      "sectorId": "sector-retail",
+      "city": "Arlington"
+    },
+    {
+      "id": "borrower-0090",
+      "name": "Nomad Outlet",
+      "sectorId": "sector-retail",
+      "city": "Plano"
+    },
+    {
+      "id": "borrower-0091",
+      "name": "Mesa Trading Co.",
+      "sectorId": "sector-retail",
+      "city": "Lubbock"
+    },
+    {
+      "id": "borrower-0092",
+      "name": "Frontier Grocers",
+      "sectorId": "sector-retail",
+      "city": "Houston"
+    },
+    {
+      "id": "borrower-0093",
+      "name": "Nomad Apparel",
+      "sectorId": "sector-retail",
+      "city": "Houston"
+    },
+    {
+      "id": "borrower-0094",
+      "name": "Ranger Outlet",
+      "sectorId": "sector-retail",
+      "city": "Dallas"
+    },
+    {
+      "id": "borrower-0095",
+      "name": "Loop Provisions",
+      "sectorId": "sector-retail",
+      "city": "Plano"
+    },
+    {
+      "id": "borrower-0096",
+      "name": "Crimson Home Goods",
+      "sectorId": "sector-retail",
+      "city": "Plano"
+    },
+    {
+      "id": "borrower-0097",
+      "name": "Hive Provisions",
+      "sectorId": "sector-retail",
+      "city": "Corpus Christi"
+    },
+    {
+      "id": "borrower-0098",
+      "name": "Omega Trading Co.",
+      "sectorId": "sector-retail",
+      "city": "McKinney"
+    },
+    {
+      "id": "borrower-0099",
+      "name": "Cactus Grocers",
+      "sectorId": "sector-retail",
+      "city": "McKinney"
+    },
+    {
+      "id": "borrower-0100",
+      "name": "Nomad Boutique",
+      "sectorId": "sector-retail",
+      "city": "McKinney"
+    },
+    {
+      "id": "borrower-0101",
+      "name": "Redwood Mercantile",
+      "sectorId": "sector-retail",
+      "city": "San Antonio"
+    },
+    {
+      "id": "borrower-0102",
+      "name": "Sync Boutique",
+      "sectorId": "sector-retail",
+      "city": "Austin"
+    },
+    {
+      "id": "borrower-0103",
+      "name": "Sun Boutique",
+      "sectorId": "sector-retail",
+      "city": "Austin"
+    },
+    {
+      "id": "borrower-0104",
+      "name": "Silver Marketplace",
+      "sectorId": "sector-retail",
+      "city": "Arlington"
+    },
+    {
+      "id": "borrower-0105",
+      "name": "Nova Apparel",
+      "sectorId": "sector-retail",
+      "city": "Arlington"
+    },
+    {
+      "id": "borrower-0106",
+      "name": "Delta Provisions",
+      "sectorId": "sector-retail",
+      "city": "El Paso"
+    },
+    {
+      "id": "borrower-0107",
+      "name": "Bluebonnet Grocers",
+      "sectorId": "sector-retail",
+      "city": "Lubbock"
+    },
+    {
+      "id": "borrower-0108",
+      "name": "Titan Outfitters",
+      "sectorId": "sector-retail",
+      "city": "Plano"
+    },
+    {
+      "id": "borrower-0109",
+      "name": "Crimson Mercantile",
+      "sectorId": "sector-retail",
+      "city": "Arlington"
+    },
+    {
+      "id": "borrower-0110",
+      "name": "Alpha Home Goods",
+      "sectorId": "sector-retail",
+      "city": "Laredo"
+    },
+    {
+      "id": "borrower-0111",
+      "name": "Frontier Apparel",
+      "sectorId": "sector-retail",
+      "city": "Corpus Christi"
+    },
+    {
+      "id": "borrower-0112",
+      "name": "Wolf Apparel",
+      "sectorId": "sector-retail",
+      "city": "Arlington"
+    },
+    {
+      "id": "borrower-0113",
+      "name": "Moon Apparel",
+      "sectorId": "sector-retail",
+      "city": "Lubbock"
+    },
+    {
+      "id": "borrower-0114",
+      "name": "Beta Boutique",
+      "sectorId": "sector-retail",
+      "city": "Plano"
+    },
+    {
+      "id": "borrower-0115",
+      "name": "Falcon Outfitters",
+      "sectorId": "sector-retail",
+      "city": "El Paso"
+    },
+    {
+      "id": "borrower-0116",
+      "name": "Falcon Apparel",
+      "sectorId": "sector-retail",
+      "city": "Corpus Christi"
+    },
+    {
+      "id": "borrower-0117",
+      "name": "Pearl Grocers",
+      "sectorId": "sector-retail",
+      "city": "Arlington"
+    },
+    {
+      "id": "borrower-0118",
+      "name": "Eagle Mercantile",
+      "sectorId": "sector-retail",
+      "city": "San Antonio"
+    },
+    {
+      "id": "borrower-0119",
+      "name": "Omega Home Goods",
+      "sectorId": "sector-retail",
+      "city": "El Paso"
+    },
+    {
+      "id": "borrower-0120",
+      "name": "Pioneer Home Goods",
+      "sectorId": "sector-retail",
+      "city": "Austin"
+    },
+    {
+      "id": "borrower-0121",
+      "name": "Onyx Trading Co.",
+      "sectorId": "sector-retail",
+      "city": "Waco"
+    },
+    {
+      "id": "borrower-0122",
+      "name": "Frontier Grocers",
+      "sectorId": "sector-retail",
+      "city": "Dallas"
+    },
+    {
+      "id": "borrower-0123",
+      "name": "Sun Outlet",
+      "sectorId": "sector-retail",
+      "city": "McKinney"
+    },
+    {
+      "id": "borrower-0124",
+      "name": "Cactus Mercantile",
+      "sectorId": "sector-retail",
+      "city": "Laredo"
+    },
+    {
+      "id": "borrower-0125",
+      "name": "Gamma Boutique",
+      "sectorId": "sector-retail",
+      "city": "Irving"
+    },
+    {
+      "id": "borrower-0126",
+      "name": "Quantum Outlet",
+      "sectorId": "sector-retail",
+      "city": "Plano"
+    },
+    {
+      "id": "borrower-0127",
+      "name": "Neural Outfitters",
+      "sectorId": "sector-retail",
+      "city": "Fort Worth"
+    },
+    {
+      "id": "borrower-0128",
+      "name": "Fox Outlet",
+      "sectorId": "sector-retail",
+      "city": "El Paso"
+    },
+    {
+      "id": "borrower-0129",
+      "name": "Quantum Outlet",
+      "sectorId": "sector-retail",
+      "city": "Dallas"
+    },
+    {
+      "id": "borrower-0130",
+      "name": "Phoenix Trading Co.",
+      "sectorId": "sector-retail",
+      "city": "Irving"
+    },
+    {
+      "id": "borrower-0131",
+      "name": "River Grocers",
+      "sectorId": "sector-retail",
+      "city": "Frisco"
+    },
+    {
+      "id": "borrower-0132",
+      "name": "Star Apparel",
+      "sectorId": "sector-retail",
+      "city": "Plano"
+    },
+    {
+      "id": "borrower-0133",
+      "name": "Beta Apparel",
+      "sectorId": "sector-retail",
+      "city": "San Antonio"
+    },
+    {
+      "id": "borrower-0134",
+      "name": "Sync Mercantile",
+      "sectorId": "sector-retail",
+      "city": "San Antonio"
+    },
+    {
+      "id": "borrower-0135",
+      "name": "Apex Trading Co.",
+      "sectorId": "sector-retail",
+      "city": "McKinney"
+    },
+    {
+      "id": "borrower-0136",
+      "name": "Bolt Outlet",
+      "sectorId": "sector-retail",
+      "city": "Corpus Christi"
+    },
+    {
+      "id": "borrower-0137",
+      "name": "Bridge Outfitters",
+      "sectorId": "sector-retail",
+      "city": "Corpus Christi"
+    },
+    {
+      "id": "borrower-0138",
+      "name": "Onyx Marketplace",
+      "sectorId": "sector-retail",
+      "city": "Austin"
+    },
+    {
+      "id": "borrower-0139",
+      "name": "Loop Outlet",
+      "sectorId": "sector-retail",
+      "city": "Frisco"
+    },
+    {
+      "id": "borrower-0140",
+      "name": "Compass Home Goods",
+      "sectorId": "sector-retail",
+      "city": "Irving"
+    },
+    {
+      "id": "borrower-0141",
+      "name": "Compass Outlet",
+      "sectorId": "sector-retail",
+      "city": "Arlington"
+    },
+    {
+      "id": "borrower-0142",
+      "name": "Redwood Outlet",
+      "sectorId": "sector-retail",
+      "city": "Houston"
+    },
+    {
+      "id": "borrower-0143",
+      "name": "Node Outlet",
+      "sectorId": "sector-retail",
+      "city": "Waco"
+    },
+    {
+      "id": "borrower-0144",
+      "name": "Apex Outfitters",
+      "sectorId": "sector-retail",
+      "city": "Corpus Christi"
+    },
+    {
+      "id": "borrower-0145",
+      "name": "Fox Home Goods",
+      "sectorId": "sector-retail",
+      "city": "Dallas"
+    },
+    {
+      "id": "borrower-0146",
+      "name": "Moon Provisions",
+      "sectorId": "sector-retail",
+      "city": "Houston"
+    },
+    {
+      "id": "borrower-0147",
+      "name": "Delta Outlet",
+      "sectorId": "sector-retail",
+      "city": "Corpus Christi"
+    },
+    {
+      "id": "borrower-0148",
+      "name": "Vertex Grocers",
+      "sectorId": "sector-retail",
+      "city": "Dallas"
+    },
+    {
+      "id": "borrower-0149",
+      "name": "Apex Boutique",
+      "sectorId": "sector-retail",
+      "city": "Houston"
+    },
+    {
+      "id": "borrower-0150",
+      "name": "Falcon Marketplace",
+      "sectorId": "sector-retail",
+      "city": "Corpus Christi"
+    },
+    {
+      "id": "borrower-0151",
+      "name": "Pioneer Labs",
+      "sectorId": "sector-technology",
+      "city": "Houston"
+    },
+    {
+      "id": "borrower-0152",
+      "name": "Vertex Systems",
+      "sectorId": "sector-technology",
+      "city": "San Antonio"
+    },
+    {
+      "id": "borrower-0153",
+      "name": "Hive Cloud",
+      "sectorId": "sector-technology",
+      "city": "Frisco"
+    },
+    {
+      "id": "borrower-0154",
+      "name": "Cyber Analytics",
+      "sectorId": "sector-technology",
+      "city": "Arlington"
+    },
+    {
+      "id": "borrower-0155",
+      "name": "Golden Studios",
+      "sectorId": "sector-technology",
+      "city": "Corpus Christi"
+    },
+    {
+      "id": "borrower-0156",
+      "name": "Hive Networks",
+      "sectorId": "sector-technology",
+      "city": "Houston"
+    },
+    {
+      "id": "borrower-0157",
+      "name": "Sync Studios",
+      "sectorId": "sector-technology",
+      "city": "Laredo"
+    },
+    {
+      "id": "borrower-0158",
+      "name": "Ridge Analytics",
+      "sectorId": "sector-technology",
+      "city": "Houston"
+    },
+    {
+      "id": "borrower-0159",
+      "name": "Silver Robotics",
+      "sectorId": "sector-technology",
+      "city": "El Paso"
+    },
+    {
+      "id": "borrower-0160",
+      "name": "Bluebonnet Software",
+      "sectorId": "sector-technology",
+      "city": "Plano"
+    },
+    {
+      "id": "borrower-0161",
+      "name": "Nomad Robotics",
+      "sectorId": "sector-technology",
+      "city": "Arlington"
+    },
+    {
+      "id": "borrower-0162",
+      "name": "Loop Cloud",
+      "sectorId": "sector-technology",
+      "city": "Irving"
+    },
+    {
+      "id": "borrower-0163",
+      "name": "Ranger Studios",
+      "sectorId": "sector-technology",
+      "city": "San Antonio"
+    },
+    {
+      "id": "borrower-0164",
+      "name": "Nomad Digital",
+      "sectorId": "sector-technology",
+      "city": "Lubbock"
+    },
+    {
+      "id": "borrower-0165",
+      "name": "Titan Studios",
+      "sectorId": "sector-technology",
+      "city": "Houston"
+    },
+    {
+      "id": "borrower-0166",
+      "name": "Quantum Networks",
+      "sectorId": "sector-technology",
+      "city": "Austin"
+    },
+    {
+      "id": "borrower-0167",
+      "name": "Bridge Studios",
+      "sectorId": "sector-technology",
+      "city": "Waco"
+    },
+    {
+      "id": "borrower-0168",
+      "name": "Ledger Systems",
+      "sectorId": "sector-technology",
+      "city": "Austin"
+    },
+    {
+      "id": "borrower-0169",
+      "name": "Apex Networks",
+      "sectorId": "sector-technology",
+      "city": "Fort Worth"
+    },
+    {
+      "id": "borrower-0170",
+      "name": "Silver Systems",
+      "sectorId": "sector-technology",
+      "city": "Corpus Christi"
+    },
+    {
+      "id": "borrower-0171",
+      "name": "Falcon Digital",
+      "sectorId": "sector-technology",
+      "city": "San Antonio"
+    },
+    {
+      "id": "borrower-0172",
+      "name": "Canyon Systems",
+      "sectorId": "sector-technology",
+      "city": "Irving"
+    },
+    {
+      "id": "borrower-0173",
+      "name": "Redwood Software",
+      "sectorId": "sector-technology",
+      "city": "Corpus Christi"
+    },
+    {
+      "id": "borrower-0174",
+      "name": "Star Systems",
+      "sectorId": "sector-technology",
+      "city": "El Paso"
+    },
+    {
+      "id": "borrower-0175",
+      "name": "Onyx AI",
+      "sectorId": "sector-technology",
+      "city": "Lubbock"
+    },
+    {
+      "id": "borrower-0176",
+      "name": "Beta Analytics",
+      "sectorId": "sector-technology",
+      "city": "Waco"
+    },
+    {
+      "id": "borrower-0177",
+      "name": "Hive Labs",
+      "sectorId": "sector-technology",
+      "city": "Laredo"
+    },
+    {
+      "id": "borrower-0178",
+      "name": "Phoenix Cloud",
+      "sectorId": "sector-technology",
+      "city": "Houston"
+    },
+    {
+      "id": "borrower-0179",
+      "name": "Star Software",
+      "sectorId": "sector-technology",
+      "city": "McKinney"
+    },
+    {
+      "id": "borrower-0180",
+      "name": "Alpha Robotics",
+      "sectorId": "sector-technology",
+      "city": "Austin"
+    },
+    {
+      "id": "borrower-0181",
+      "name": "Crimson Digital",
+      "sectorId": "sector-technology",
+      "city": "Houston"
+    },
+    {
+      "id": "borrower-0182",
+      "name": "Phoenix Cloud",
+      "sectorId": "sector-technology",
+      "city": "Arlington"
+    },
+    {
+      "id": "borrower-0183",
+      "name": "Cactus Cloud",
+      "sectorId": "sector-technology",
+      "city": "Waco"
+    },
+    {
+      "id": "borrower-0184",
+      "name": "Cyber Analytics",
+      "sectorId": "sector-technology",
+      "city": "Lubbock"
+    },
+    {
+      "id": "borrower-0185",
+      "name": "Emerald Analytics",
+      "sectorId": "sector-technology",
+      "city": "Laredo"
+    },
+    {
+      "id": "borrower-0186",
+      "name": "Ranger Robotics",
+      "sectorId": "sector-technology",
+      "city": "Austin"
+    },
+    {
+      "id": "borrower-0187",
+      "name": "Cactus Digital",
+      "sectorId": "sector-technology",
+      "city": "Houston"
+    },
+    {
+      "id": "borrower-0188",
+      "name": "Crimson Cloud",
+      "sectorId": "sector-technology",
+      "city": "Laredo"
+    },
+    {
+      "id": "borrower-0189",
+      "name": "Moon Systems",
+      "sectorId": "sector-technology",
+      "city": "Frisco"
+    },
+    {
+      "id": "borrower-0190",
+      "name": "Pearl AI",
+      "sectorId": "sector-technology",
+      "city": "San Antonio"
+    },
+    {
+      "id": "borrower-0191",
+      "name": "Bolt Digital",
+      "sectorId": "sector-technology",
+      "city": "Corpus Christi"
+    },
+    {
+      "id": "borrower-0192",
+      "name": "Phoenix Software",
+      "sectorId": "sector-technology",
+      "city": "Dallas"
+    },
+    {
+      "id": "borrower-0193",
+      "name": "Nova Studios",
+      "sectorId": "sector-technology",
+      "city": "El Paso"
+    },
+    {
+      "id": "borrower-0194",
+      "name": "Delta Systems",
+      "sectorId": "sector-technology",
+      "city": "Arlington"
+    },
+    {
+      "id": "borrower-0195",
+      "name": "Vertex AI",
+      "sectorId": "sector-technology",
+      "city": "McKinney"
+    },
+    {
+      "id": "borrower-0196",
+      "name": "Star Robotics",
+      "sectorId": "sector-technology",
+      "city": "Plano"
+    },
+    {
+      "id": "borrower-0197",
+      "name": "Gamma Analytics",
+      "sectorId": "sector-technology",
+      "city": "San Antonio"
+    },
+    {
+      "id": "borrower-0198",
+      "name": "Gamma Cloud",
+      "sectorId": "sector-technology",
+      "city": "Plano"
+    },
+    {
+      "id": "borrower-0199",
+      "name": "Cactus Robotics",
+      "sectorId": "sector-technology",
+      "city": "Laredo"
+    },
+    {
+      "id": "borrower-0200",
+      "name": "Bolt Software",
+      "sectorId": "sector-technology",
+      "city": "Austin"
+    },
+    {
+      "id": "borrower-0201",
+      "name": "Delta Networks",
+      "sectorId": "sector-technology",
+      "city": "McKinney"
+    },
+    {
+      "id": "borrower-0202",
+      "name": "Canyon Cloud",
+      "sectorId": "sector-technology",
+      "city": "Houston"
+    },
+    {
+      "id": "borrower-0203",
+      "name": "Apex Digital",
+      "sectorId": "sector-technology",
+      "city": "El Paso"
+    },
+    {
+      "id": "borrower-0204",
+      "name": "Prairie Systems",
+      "sectorId": "sector-technology",
+      "city": "Austin"
+    },
+    {
+      "id": "borrower-0205",
+      "name": "Frontier Labs",
+      "sectorId": "sector-technology",
+      "city": "Lubbock"
+    },
+    {
+      "id": "borrower-0206",
+      "name": "Copper Cloud",
+      "sectorId": "sector-technology",
+      "city": "Irving"
+    },
+    {
+      "id": "borrower-0207",
+      "name": "Beta AI",
+      "sectorId": "sector-technology",
+      "city": "El Paso"
+    },
+    {
+      "id": "borrower-0208",
+      "name": "Loop Analytics",
+      "sectorId": "sector-technology",
+      "city": "Lubbock"
+    },
+    {
+      "id": "borrower-0209",
+      "name": "Star Digital",
+      "sectorId": "sector-technology",
+      "city": "Corpus Christi"
+    },
+    {
+      "id": "borrower-0210",
+      "name": "Cactus Labs",
+      "sectorId": "sector-technology",
+      "city": "Lubbock"
+    },
+    {
+      "id": "borrower-0211",
+      "name": "Summit Analytics",
+      "sectorId": "sector-technology",
+      "city": "Waco"
+    },
+    {
+      "id": "borrower-0212",
+      "name": "Beta Digital",
+      "sectorId": "sector-technology",
+      "city": "Irving"
+    },
+    {
+      "id": "borrower-0213",
+      "name": "Omega Analytics",
+      "sectorId": "sector-technology",
+      "city": "Dallas"
+    },
+    {
+      "id": "borrower-0214",
+      "name": "Node Systems",
+      "sectorId": "sector-technology",
+      "city": "Frisco"
+    },
+    {
+      "id": "borrower-0215",
+      "name": "Iron Systems",
+      "sectorId": "sector-technology",
+      "city": "Plano"
+    },
+    {
+      "id": "borrower-0216",
+      "name": "Compass Software",
+      "sectorId": "sector-technology",
+      "city": "Laredo"
+    },
+    {
+      "id": "borrower-0217",
+      "name": "Sync Networks",
+      "sectorId": "sector-technology",
+      "city": "Fort Worth"
+    },
+    {
+      "id": "borrower-0218",
+      "name": "Eagle Digital",
+      "sectorId": "sector-technology",
+      "city": "McKinney"
+    },
+    {
+      "id": "borrower-0219",
+      "name": "Hive Software",
+      "sectorId": "sector-technology",
+      "city": "Laredo"
+    },
+    {
+      "id": "borrower-0220",
+      "name": "Nova Studios",
+      "sectorId": "sector-technology",
+      "city": "El Paso"
+    },
+    {
+      "id": "borrower-0221",
+      "name": "Mesa Cloud",
+      "sectorId": "sector-technology",
+      "city": "McKinney"
+    },
+    {
+      "id": "borrower-0222",
+      "name": "Ledger Networks",
+      "sectorId": "sector-technology",
+      "city": "Houston"
+    },
+    {
+      "id": "borrower-0223",
+      "name": "Compass Systems",
+      "sectorId": "sector-technology",
+      "city": "San Antonio"
+    },
+    {
+      "id": "borrower-0224",
+      "name": "Redwood Systems",
+      "sectorId": "sector-technology",
+      "city": "Irving"
+    },
+    {
+      "id": "borrower-0225",
+      "name": "Redwood Analytics",
+      "sectorId": "sector-technology",
+      "city": "Frisco"
+    },
+    {
+      "id": "borrower-0226",
+      "name": "Onyx Analytics",
+      "sectorId": "sector-technology",
+      "city": "McKinney"
+    },
+    {
+      "id": "borrower-0227",
+      "name": "Loop Digital",
+      "sectorId": "sector-technology",
+      "city": "Arlington"
+    },
+    {
+      "id": "borrower-0228",
+      "name": "Prairie Analytics",
+      "sectorId": "sector-technology",
+      "city": "Austin"
+    },
+    {
+      "id": "borrower-0229",
+      "name": "Ridge Digital",
+      "sectorId": "sector-technology",
+      "city": "Plano"
+    },
+    {
+      "id": "borrower-0230",
+      "name": "Hive AI",
+      "sectorId": "sector-technology",
+      "city": "Houston"
+    },
+    {
+      "id": "borrower-0231",
+      "name": "Vertex Networks",
+      "sectorId": "sector-technology",
+      "city": "Austin"
+    },
+    {
+      "id": "borrower-0232",
+      "name": "Beta Analytics",
+      "sectorId": "sector-technology",
+      "city": "Dallas"
+    },
+    {
+      "id": "borrower-0233",
+      "name": "Ranger Robotics",
+      "sectorId": "sector-technology",
+      "city": "Laredo"
+    },
+    {
+      "id": "borrower-0234",
+      "name": "Neural Studios",
+      "sectorId": "sector-technology",
+      "city": "McKinney"
+    },
+    {
+      "id": "borrower-0235",
+      "name": "Nova AI",
+      "sectorId": "sector-technology",
+      "city": "Irving"
+    },
+    {
+      "id": "borrower-0236",
+      "name": "Emerald Labs",
+      "sectorId": "sector-technology",
+      "city": "Arlington"
+    },
+    {
+      "id": "borrower-0237",
+      "name": "Prairie Software",
+      "sectorId": "sector-technology",
+      "city": "El Paso"
+    },
+    {
+      "id": "borrower-0238",
+      "name": "Copper Networks",
+      "sectorId": "sector-technology",
+      "city": "Lubbock"
+    },
+    {
+      "id": "borrower-0239",
+      "name": "Quantum Analytics",
+      "sectorId": "sector-technology",
+      "city": "Arlington"
+    },
+    {
+      "id": "borrower-0240",
+      "name": "Cactus Digital",
+      "sectorId": "sector-technology",
+      "city": "Frisco"
+    },
+    {
+      "id": "borrower-0241",
+      "name": "Wolf Clinic",
+      "sectorId": "sector-healthcare",
+      "city": "Houston"
+    },
+    {
+      "id": "borrower-0242",
+      "name": "Omega Wellness",
+      "sectorId": "sector-healthcare",
+      "city": "Arlington"
+    },
+    {
+      "id": "borrower-0243",
+      "name": "Wolf Health Partners",
+      "sectorId": "sector-healthcare",
+      "city": "Arlington"
+    },
+    {
+      "id": "borrower-0244",
+      "name": "Sun Pharmacy",
+      "sectorId": "sector-healthcare",
+      "city": "Irving"
+    },
+    {
+      "id": "borrower-0245",
+      "name": "Cactus Medical Group",
+      "sectorId": "sector-healthcare",
+      "city": "Laredo"
+    },
+    {
+      "id": "borrower-0246",
+      "name": "Fox Dental",
+      "sectorId": "sector-healthcare",
+      "city": "San Antonio"
+    },
+    {
+      "id": "borrower-0247",
+      "name": "Bluebonnet Health Partners",
+      "sectorId": "sector-healthcare",
+      "city": "Frisco"
+    },
+    {
+      "id": "borrower-0248",
+      "name": "Node Dental",
+      "sectorId": "sector-healthcare",
+      "city": "Austin"
+    },
+    {
+      "id": "borrower-0249",
+      "name": "Prairie Wellness",
+      "sectorId": "sector-healthcare",
+      "city": "Waco"
+    },
+    {
+      "id": "borrower-0250",
+      "name": "Moon Wellness",
+      "sectorId": "sector-healthcare",
+      "city": "Plano"
+    },
+    {
+      "id": "borrower-0251",
+      "name": "Vertex Health Partners",
+      "sectorId": "sector-healthcare",
+      "city": "Dallas"
+    },
+    {
+      "id": "borrower-0252",
+      "name": "Crimson Clinic",
+      "sectorId": "sector-healthcare",
+      "city": "Austin"
+    },
+    {
+      "id": "borrower-0253",
+      "name": "Ranger Therapy",
+      "sectorId": "sector-healthcare",
+      "city": "Houston"
+    },
+    {
+      "id": "borrower-0254",
+      "name": "Omega Health Partners",
+      "sectorId": "sector-healthcare",
+      "city": "Waco"
+    },
+    {
+      "id": "borrower-0255",
+      "name": "Cyber Health Partners",
+      "sectorId": "sector-healthcare",
+      "city": "El Paso"
+    },
+    {
+      "id": "borrower-0256",
+      "name": "Neural Pharmacy",
+      "sectorId": "sector-healthcare",
+      "city": "Plano"
+    },
+    {
+      "id": "borrower-0257",
+      "name": "Vertex Health Partners",
+      "sectorId": "sector-healthcare",
+      "city": "Irving"
+    },
+    {
+      "id": "borrower-0258",
+      "name": "Iron Pediatrics",
+      "sectorId": "sector-healthcare",
+      "city": "Arlington"
+    },
+    {
+      "id": "borrower-0259",
+      "name": "Iron Wellness",
+      "sectorId": "sector-healthcare",
+      "city": "McKinney"
+    },
+    {
+      "id": "borrower-0260",
+      "name": "Node Therapy",
+      "sectorId": "sector-healthcare",
+      "city": "Arlington"
+    },
+    {
+      "id": "borrower-0261",
+      "name": "Pioneer Pharmacy",
+      "sectorId": "sector-healthcare",
+      "city": "Arlington"
+    },
+    {
+      "id": "borrower-0262",
+      "name": "Apex Pediatrics",
+      "sectorId": "sector-healthcare",
+      "city": "San Antonio"
+    },
+    {
+      "id": "borrower-0263",
+      "name": "Silver Pediatrics",
+      "sectorId": "sector-healthcare",
+      "city": "Dallas"
+    },
+    {
+      "id": "borrower-0264",
+      "name": "Neural Diagnostics",
+      "sectorId": "sector-healthcare",
+      "city": "El Paso"
+    },
+    {
+      "id": "borrower-0265",
+      "name": "Cyber Dental",
+      "sectorId": "sector-healthcare",
+      "city": "Arlington"
+    },
+    {
+      "id": "borrower-0266",
+      "name": "Wolf Wellness",
+      "sectorId": "sector-healthcare",
+      "city": "Lubbock"
+    },
+    {
+      "id": "borrower-0267",
+      "name": "Beta Health Partners",
+      "sectorId": "sector-healthcare",
+      "city": "San Antonio"
+    },
+    {
+      "id": "borrower-0268",
+      "name": "Bridge Dental",
+      "sectorId": "sector-healthcare",
+      "city": "Corpus Christi"
+    },
+    {
+      "id": "borrower-0269",
+      "name": "Vertex Care Center",
+      "sectorId": "sector-healthcare",
+      "city": "Houston"
+    },
+    {
+      "id": "borrower-0270",
+      "name": "Cactus Clinic",
+      "sectorId": "sector-healthcare",
+      "city": "Waco"
+    },
+    {
+      "id": "borrower-0271",
+      "name": "Beta Pediatrics",
+      "sectorId": "sector-healthcare",
+      "city": "Lubbock"
+    },
+    {
+      "id": "borrower-0272",
+      "name": "Pioneer Pediatrics",
+      "sectorId": "sector-healthcare",
+      "city": "Arlington"
+    },
+    {
+      "id": "borrower-0273",
+      "name": "Bluebonnet Wellness",
+      "sectorId": "sector-healthcare",
+      "city": "Lubbock"
+    },
+    {
+      "id": "borrower-0274",
+      "name": "Beta Diagnostics",
+      "sectorId": "sector-healthcare",
+      "city": "Lubbock"
+    },
+    {
+      "id": "borrower-0275",
+      "name": "Vertex Pharmacy",
+      "sectorId": "sector-healthcare",
+      "city": "Laredo"
+    },
+    {
+      "id": "borrower-0276",
+      "name": "Delta Diagnostics",
+      "sectorId": "sector-healthcare",
+      "city": "San Antonio"
+    },
+    {
+      "id": "borrower-0277",
+      "name": "Node Clinic",
+      "sectorId": "sector-healthcare",
+      "city": "Plano"
+    },
+    {
+      "id": "borrower-0278",
+      "name": "Wolf Wellness",
+      "sectorId": "sector-healthcare",
+      "city": "McKinney"
+    },
+    {
+      "id": "borrower-0279",
+      "name": "Node Pediatrics",
+      "sectorId": "sector-healthcare",
+      "city": "Irving"
+    },
+    {
+      "id": "borrower-0280",
+      "name": "Star Health Partners",
+      "sectorId": "sector-healthcare",
+      "city": "El Paso"
+    },
+    {
+      "id": "borrower-0281",
+      "name": "Golden Therapy",
+      "sectorId": "sector-healthcare",
+      "city": "Houston"
+    },
+    {
+      "id": "borrower-0282",
+      "name": "Prairie Diagnostics",
+      "sectorId": "sector-healthcare",
+      "city": "Austin"
+    },
+    {
+      "id": "borrower-0283",
+      "name": "Phoenix Diagnostics",
+      "sectorId": "sector-healthcare",
+      "city": "Houston"
+    },
+    {
+      "id": "borrower-0284",
+      "name": "Node Care Center",
+      "sectorId": "sector-healthcare",
+      "city": "Houston"
+    },
+    {
+      "id": "borrower-0285",
+      "name": "Ranger Wellness",
+      "sectorId": "sector-healthcare",
+      "city": "Plano"
+    },
+    {
+      "id": "borrower-0286",
+      "name": "Cactus Care Center",
+      "sectorId": "sector-healthcare",
+      "city": "Laredo"
+    },
+    {
+      "id": "borrower-0287",
+      "name": "Vertex Pharmacy",
+      "sectorId": "sector-healthcare",
+      "city": "Houston"
+    },
+    {
+      "id": "borrower-0288",
+      "name": "Bridge Clinic",
+      "sectorId": "sector-healthcare",
+      "city": "Irving"
+    },
+    {
+      "id": "borrower-0289",
+      "name": "Canyon Wellness",
+      "sectorId": "sector-healthcare",
+      "city": "San Antonio"
+    },
+    {
+      "id": "borrower-0290",
+      "name": "Omega Clinic",
+      "sectorId": "sector-healthcare",
+      "city": "McKinney"
+    },
+    {
+      "id": "borrower-0291",
+      "name": "Phoenix Health Partners",
+      "sectorId": "sector-healthcare",
+      "city": "McKinney"
+    },
+    {
+      "id": "borrower-0292",
+      "name": "Redwood Therapy",
+      "sectorId": "sector-healthcare",
+      "city": "Irving"
+    },
+    {
+      "id": "borrower-0293",
+      "name": "Vertex Clinic",
+      "sectorId": "sector-healthcare",
+      "city": "Lubbock"
+    },
+    {
+      "id": "borrower-0294",
+      "name": "Hive Diagnostics",
+      "sectorId": "sector-healthcare",
+      "city": "Houston"
+    },
+    {
+      "id": "borrower-0295",
+      "name": "Pioneer Care Center",
+      "sectorId": "sector-healthcare",
+      "city": "Austin"
+    },
+    {
+      "id": "borrower-0296",
+      "name": "Node Pharmacy",
+      "sectorId": "sector-healthcare",
+      "city": "El Paso"
+    },
+    {
+      "id": "borrower-0297",
+      "name": "Copper Care Center",
+      "sectorId": "sector-healthcare",
+      "city": "Houston"
+    },
+    {
+      "id": "borrower-0298",
+      "name": "Hive Clinic",
+      "sectorId": "sector-healthcare",
+      "city": "Arlington"
+    },
+    {
+      "id": "borrower-0299",
+      "name": "Golden Health Partners",
+      "sectorId": "sector-healthcare",
+      "city": "Waco"
+    },
+    {
+      "id": "borrower-0300",
+      "name": "Nova Diagnostics",
+      "sectorId": "sector-healthcare",
+      "city": "Waco"
+    },
+    {
+      "id": "borrower-0301",
+      "name": "Bluebonnet Medical Group",
+      "sectorId": "sector-healthcare",
+      "city": "Laredo"
+    },
+    {
+      "id": "borrower-0302",
+      "name": "Wolf Pediatrics",
+      "sectorId": "sector-healthcare",
+      "city": "Plano"
+    },
+    {
+      "id": "borrower-0303",
+      "name": "Canyon Health Partners",
+      "sectorId": "sector-healthcare",
+      "city": "Irving"
+    },
+    {
+      "id": "borrower-0304",
+      "name": "Emerald Medical Group",
+      "sectorId": "sector-healthcare",
+      "city": "Frisco"
+    },
+    {
+      "id": "borrower-0305",
+      "name": "Apex Medical Group",
+      "sectorId": "sector-healthcare",
+      "city": "Waco"
+    },
+    {
+      "id": "borrower-0306",
+      "name": "Cyber Clinic",
+      "sectorId": "sector-healthcare",
+      "city": "Corpus Christi"
+    },
+    {
+      "id": "borrower-0307",
+      "name": "Ranger Clinic",
+      "sectorId": "sector-healthcare",
+      "city": "McKinney"
+    },
+    {
+      "id": "borrower-0308",
+      "name": "Frontier Health Partners",
+      "sectorId": "sector-healthcare",
+      "city": "Fort Worth"
+    },
+    {
+      "id": "borrower-0309",
+      "name": "Quantum Wellness",
+      "sectorId": "sector-healthcare",
+      "city": "San Antonio"
+    },
+    {
+      "id": "borrower-0310",
+      "name": "Ranger Pharmacy",
+      "sectorId": "sector-healthcare",
+      "city": "Frisco"
+    },
+    {
+      "id": "borrower-0311",
+      "name": "Apex Medical Group",
+      "sectorId": "sector-healthcare",
+      "city": "Lubbock"
+    },
+    {
+      "id": "borrower-0312",
+      "name": "Star Diagnostics",
+      "sectorId": "sector-healthcare",
+      "city": "Irving"
+    },
+    {
+      "id": "borrower-0313",
+      "name": "Copper Therapy",
+      "sectorId": "sector-healthcare",
+      "city": "Irving"
+    },
+    {
+      "id": "borrower-0314",
+      "name": "Wolf Dental",
+      "sectorId": "sector-healthcare",
+      "city": "Frisco"
+    },
+    {
+      "id": "borrower-0315",
+      "name": "Pioneer Diagnostics",
+      "sectorId": "sector-healthcare",
+      "city": "Fort Worth"
+    },
+    {
+      "id": "borrower-0316",
+      "name": "Omega Diagnostics",
+      "sectorId": "sector-healthcare",
+      "city": "Corpus Christi"
+    },
+    {
+      "id": "borrower-0317",
+      "name": "Golden Care Center",
+      "sectorId": "sector-healthcare",
+      "city": "McKinney"
+    },
+    {
+      "id": "borrower-0318",
+      "name": "Ranger Diagnostics",
+      "sectorId": "sector-healthcare",
+      "city": "Laredo"
+    },
+    {
+      "id": "borrower-0319",
+      "name": "Quantum Pharmacy",
+      "sectorId": "sector-healthcare",
+      "city": "Fort Worth"
+    },
+    {
+      "id": "borrower-0320",
+      "name": "Node Medical Group",
+      "sectorId": "sector-healthcare",
+      "city": "Waco"
+    },
+    {
+      "id": "borrower-0321",
+      "name": "Gamma Medical Group",
+      "sectorId": "sector-healthcare",
+      "city": "Houston"
+    },
+    {
+      "id": "borrower-0322",
+      "name": "Falcon Pediatrics",
+      "sectorId": "sector-healthcare",
+      "city": "Waco"
+    },
+    {
+      "id": "borrower-0323",
+      "name": "Apex Wellness",
+      "sectorId": "sector-healthcare",
+      "city": "McKinney"
+    },
+    {
+      "id": "borrower-0324",
+      "name": "Ridge Pharmacy",
+      "sectorId": "sector-healthcare",
+      "city": "Fort Worth"
+    },
+    {
+      "id": "borrower-0325",
+      "name": "Gamma Care Center",
+      "sectorId": "sector-healthcare",
+      "city": "Plano"
+    },
+    {
+      "id": "borrower-0326",
+      "name": "Titan Diagnostics",
+      "sectorId": "sector-healthcare",
+      "city": "Irving"
+    },
+    {
+      "id": "borrower-0327",
+      "name": "Bluebonnet Therapy",
+      "sectorId": "sector-healthcare",
+      "city": "Plano"
+    },
+    {
+      "id": "borrower-0328",
+      "name": "Nova Wellness",
+      "sectorId": "sector-healthcare",
+      "city": "Waco"
+    },
+    {
+      "id": "borrower-0329",
+      "name": "Apex Diagnostics",
+      "sectorId": "sector-healthcare",
+      "city": "Corpus Christi"
+    },
+    {
+      "id": "borrower-0330",
+      "name": "Pioneer Diagnostics",
+      "sectorId": "sector-healthcare",
+      "city": "Corpus Christi"
+    },
+    {
+      "id": "borrower-0331",
+      "name": "Node Pediatrics",
+      "sectorId": "sector-healthcare",
+      "city": "El Paso"
+    },
+    {
+      "id": "borrower-0332",
+      "name": "Node Wellness",
+      "sectorId": "sector-healthcare",
+      "city": "San Antonio"
+    },
+    {
+      "id": "borrower-0333",
+      "name": "Node Care Center",
+      "sectorId": "sector-healthcare",
+      "city": "Corpus Christi"
+    },
+    {
+      "id": "borrower-0334",
+      "name": "Iron Therapy",
+      "sectorId": "sector-healthcare",
+      "city": "Laredo"
+    },
+    {
+      "id": "borrower-0335",
+      "name": "Golden Clinic",
+      "sectorId": "sector-healthcare",
+      "city": "McKinney"
+    },
+    {
+      "id": "borrower-0336",
+      "name": "Redwood Wellness",
+      "sectorId": "sector-healthcare",
+      "city": "Plano"
+    },
+    {
+      "id": "borrower-0337",
+      "name": "Phoenix Health Partners",
+      "sectorId": "sector-healthcare",
+      "city": "McKinney"
+    },
+    {
+      "id": "borrower-0338",
+      "name": "Eagle Health Partners",
+      "sectorId": "sector-healthcare",
+      "city": "Arlington"
+    },
+    {
+      "id": "borrower-0339",
+      "name": "Nomad Therapy",
+      "sectorId": "sector-healthcare",
+      "city": "El Paso"
+    },
+    {
+      "id": "borrower-0340",
+      "name": "Ridge Health Partners",
+      "sectorId": "sector-healthcare",
+      "city": "Houston"
+    },
+    {
+      "id": "borrower-0341",
+      "name": "Apex Pediatrics",
+      "sectorId": "sector-healthcare",
+      "city": "Frisco"
+    },
+    {
+      "id": "borrower-0342",
+      "name": "Falcon Pharmacy",
+      "sectorId": "sector-healthcare",
+      "city": "Dallas"
+    },
+    {
+      "id": "borrower-0343",
+      "name": "Canyon Therapy",
+      "sectorId": "sector-healthcare",
+      "city": "Dallas"
+    },
+    {
+      "id": "borrower-0344",
+      "name": "Frontier Pharmacy",
+      "sectorId": "sector-healthcare",
+      "city": "San Antonio"
+    },
+    {
+      "id": "borrower-0345",
+      "name": "Phoenix Medical Group",
+      "sectorId": "sector-healthcare",
+      "city": "Irving"
+    },
+    {
+      "id": "borrower-0346",
+      "name": "Canyon Dental",
+      "sectorId": "sector-healthcare",
+      "city": "Dallas"
+    },
+    {
+      "id": "borrower-0347",
+      "name": "Apex Pediatrics",
+      "sectorId": "sector-healthcare",
+      "city": "Plano"
+    },
+    {
+      "id": "borrower-0348",
+      "name": "Wolf Wellness",
+      "sectorId": "sector-healthcare",
+      "city": "El Paso"
+    },
+    {
+      "id": "borrower-0349",
+      "name": "Frontier Diagnostics",
+      "sectorId": "sector-healthcare",
+      "city": "Waco"
+    },
+    {
+      "id": "borrower-0350",
+      "name": "Eagle Care Center",
+      "sectorId": "sector-healthcare",
+      "city": "Laredo"
+    }
+  ],
+  "loans": [
+    {
+      "id": "loan-0001",
+      "borrowerId": "borrower-0001",
+      "lenderId": "lender-regional-development-bank",
+      "lenderName": "Regional Development Bank",
+      "sectorId": "sector-manufacturing",
+      "amount": 862000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0002",
+      "borrowerId": "borrower-0002",
+      "lenderId": "lender-regional-development-bank",
+      "lenderName": "Regional Development Bank",
+      "sectorId": "sector-manufacturing",
+      "amount": 1800000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0003",
+      "borrowerId": "borrower-0003",
+      "lenderId": "lender-regional-development-bank",
+      "lenderName": "Regional Development Bank",
+      "sectorId": "sector-manufacturing",
+      "amount": 1127000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0004",
+      "borrowerId": "borrower-0004",
+      "lenderId": "lender-regional-development-bank",
+      "lenderName": "Regional Development Bank",
+      "sectorId": "sector-manufacturing",
+      "amount": 1478000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0005",
+      "borrowerId": "borrower-0005",
+      "lenderId": "lender-regional-development-bank",
+      "lenderName": "Regional Development Bank",
+      "sectorId": "sector-manufacturing",
+      "amount": 840000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0006",
+      "borrowerId": "borrower-0006",
+      "lenderId": "lender-regional-development-bank",
+      "lenderName": "Regional Development Bank",
+      "sectorId": "sector-manufacturing",
+      "amount": 442000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0007",
+      "borrowerId": "borrower-0007",
+      "lenderId": "lender-regional-development-bank",
+      "lenderName": "Regional Development Bank",
+      "sectorId": "sector-manufacturing",
+      "amount": 532000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0008",
+      "borrowerId": "borrower-0008",
+      "lenderId": "lender-regional-development-bank",
+      "lenderName": "Regional Development Bank",
+      "sectorId": "sector-manufacturing",
+      "amount": 565000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0009",
+      "borrowerId": "borrower-0009",
+      "lenderId": "lender-regional-development-bank",
+      "lenderName": "Regional Development Bank",
+      "sectorId": "sector-manufacturing",
+      "amount": 486000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0010",
+      "borrowerId": "borrower-0010",
+      "lenderId": "lender-regional-development-bank",
+      "lenderName": "Regional Development Bank",
+      "sectorId": "sector-manufacturing",
+      "amount": 1462000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0011",
+      "borrowerId": "borrower-0011",
+      "lenderId": "lender-regional-development-bank",
+      "lenderName": "Regional Development Bank",
+      "sectorId": "sector-manufacturing",
+      "amount": 1112000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0012",
+      "borrowerId": "borrower-0012",
+      "lenderId": "lender-regional-development-bank",
+      "lenderName": "Regional Development Bank",
+      "sectorId": "sector-manufacturing",
+      "amount": 1399000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0013",
+      "borrowerId": "borrower-0013",
+      "lenderId": "lender-regional-development-bank",
+      "lenderName": "Regional Development Bank",
+      "sectorId": "sector-manufacturing",
+      "amount": 1104000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0014",
+      "borrowerId": "borrower-0014",
+      "lenderId": "lender-regional-development-bank",
+      "lenderName": "Regional Development Bank",
+      "sectorId": "sector-manufacturing",
+      "amount": 967000,
+      "status": "Charged Off",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0015",
+      "borrowerId": "borrower-0015",
+      "lenderId": "lender-highland-plains-trust",
+      "lenderName": "Highland Plains Trust",
+      "sectorId": "sector-manufacturing",
+      "amount": 188000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0016",
+      "borrowerId": "borrower-0016",
+      "lenderId": "lender-ironwood-business-bank",
+      "lenderName": "Ironwood Business Bank",
+      "sectorId": "sector-manufacturing",
+      "amount": 787000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0017",
+      "borrowerId": "borrower-0017",
+      "lenderId": "lender-silverline-federal",
+      "lenderName": "Silverline Federal",
+      "sectorId": "sector-manufacturing",
+      "amount": 299000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0018",
+      "borrowerId": "borrower-0018",
+      "lenderId": "lender-silverline-federal",
+      "lenderName": "Silverline Federal",
+      "sectorId": "sector-manufacturing",
+      "amount": 566000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0019",
+      "borrowerId": "borrower-0019",
+      "lenderId": "lender-texas-capital-bank",
+      "lenderName": "Texas Capital Bank",
+      "sectorId": "sector-manufacturing",
+      "amount": 666000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0020",
+      "borrowerId": "borrower-0020",
+      "lenderId": "lender-bluepeak-bank",
+      "lenderName": "BluePeak Bank",
+      "sectorId": "sector-manufacturing",
+      "amount": 1060000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0021",
+      "borrowerId": "borrower-0021",
+      "lenderId": "lender-rio-grande-financial",
+      "lenderName": "Rio Grande Financial",
+      "sectorId": "sector-manufacturing",
+      "amount": 828000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0022",
+      "borrowerId": "borrower-0022",
+      "lenderId": "lender-prosperity-regional",
+      "lenderName": "Prosperity Regional",
+      "sectorId": "sector-manufacturing",
+      "amount": 430000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0023",
+      "borrowerId": "borrower-0023",
+      "lenderId": "lender-pecos-valley-bank",
+      "lenderName": "Pecos Valley Bank",
+      "sectorId": "sector-manufacturing",
+      "amount": 326000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0024",
+      "borrowerId": "borrower-0024",
+      "lenderId": "lender-frontier-commerce-bank",
+      "lenderName": "Frontier Commerce Bank",
+      "sectorId": "sector-manufacturing",
+      "amount": 976000,
+      "status": "Charged Off",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0025",
+      "borrowerId": "borrower-0025",
+      "lenderId": "lender-gulf-coast-savings",
+      "lenderName": "Gulf Coast Savings",
+      "sectorId": "sector-manufacturing",
+      "amount": 1460000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0026",
+      "borrowerId": "borrower-0026",
+      "lenderId": "lender-pecos-valley-bank",
+      "lenderName": "Pecos Valley Bank",
+      "sectorId": "sector-manufacturing",
+      "amount": 857000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0027",
+      "borrowerId": "borrower-0027",
+      "lenderId": "lender-frontier-commerce-bank",
+      "lenderName": "Frontier Commerce Bank",
+      "sectorId": "sector-manufacturing",
+      "amount": 1009000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0028",
+      "borrowerId": "borrower-0028",
+      "lenderId": "lender-prosperity-regional",
+      "lenderName": "Prosperity Regional",
+      "sectorId": "sector-manufacturing",
+      "amount": 994000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0029",
+      "borrowerId": "borrower-0029",
+      "lenderId": "lender-southwest-trust",
+      "lenderName": "Southwest Trust",
+      "sectorId": "sector-manufacturing",
+      "amount": 1274000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0030",
+      "borrowerId": "borrower-0030",
+      "lenderId": "lender-rio-grande-financial",
+      "lenderName": "Rio Grande Financial",
+      "sectorId": "sector-manufacturing",
+      "amount": 927000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0031",
+      "borrowerId": "borrower-0031",
+      "lenderId": "lender-silverline-federal",
+      "lenderName": "Silverline Federal",
+      "sectorId": "sector-manufacturing",
+      "amount": 413000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0032",
+      "borrowerId": "borrower-0032",
+      "lenderId": "lender-rio-grande-financial",
+      "lenderName": "Rio Grande Financial",
+      "sectorId": "sector-manufacturing",
+      "amount": 194000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0033",
+      "borrowerId": "borrower-0033",
+      "lenderId": "lender-silverline-federal",
+      "lenderName": "Silverline Federal",
+      "sectorId": "sector-manufacturing",
+      "amount": 729000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0034",
+      "borrowerId": "borrower-0034",
+      "lenderId": "lender-trinity-merchant-bank",
+      "lenderName": "Trinity Merchant Bank",
+      "sectorId": "sector-manufacturing",
+      "amount": 1098000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0035",
+      "borrowerId": "borrower-0035",
+      "lenderId": "lender-heritage-trust-bank",
+      "lenderName": "Heritage Trust Bank",
+      "sectorId": "sector-manufacturing",
+      "amount": 380000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0036",
+      "borrowerId": "borrower-0036",
+      "lenderId": "lender-highland-plains-trust",
+      "lenderName": "Highland Plains Trust",
+      "sectorId": "sector-manufacturing",
+      "amount": 417000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0037",
+      "borrowerId": "borrower-0037",
+      "lenderId": "lender-sabine-river-trust",
+      "lenderName": "Sabine River Trust",
+      "sectorId": "sector-manufacturing",
+      "amount": 287000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0038",
+      "borrowerId": "borrower-0038",
+      "lenderId": "lender-mockingbird-bank",
+      "lenderName": "Mockingbird Bank",
+      "sectorId": "sector-manufacturing",
+      "amount": 451000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0039",
+      "borrowerId": "borrower-0039",
+      "lenderId": "lender-cattleman-s-national",
+      "lenderName": "Cattleman's National",
+      "sectorId": "sector-manufacturing",
+      "amount": 1370000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0040",
+      "borrowerId": "borrower-0040",
+      "lenderId": "lender-rio-grande-financial",
+      "lenderName": "Rio Grande Financial",
+      "sectorId": "sector-manufacturing",
+      "amount": 741000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0041",
+      "borrowerId": "borrower-0041",
+      "lenderId": "lender-frontier-commerce-bank",
+      "lenderName": "Frontier Commerce Bank",
+      "sectorId": "sector-manufacturing",
+      "amount": 407000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0042",
+      "borrowerId": "borrower-0042",
+      "lenderId": "lender-silverline-federal",
+      "lenderName": "Silverline Federal",
+      "sectorId": "sector-manufacturing",
+      "amount": 827000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0043",
+      "borrowerId": "borrower-0043",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-retail",
+      "amount": 822000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0044",
+      "borrowerId": "borrower-0044",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-retail",
+      "amount": 619000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0045",
+      "borrowerId": "borrower-0045",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-retail",
+      "amount": 624000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0046",
+      "borrowerId": "borrower-0046",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-retail",
+      "amount": 443000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0047",
+      "borrowerId": "borrower-0047",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-retail",
+      "amount": 567000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0048",
+      "borrowerId": "borrower-0048",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-retail",
+      "amount": 814000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0049",
+      "borrowerId": "borrower-0049",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-retail",
+      "amount": 154000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0050",
+      "borrowerId": "borrower-0050",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-retail",
+      "amount": 353000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0051",
+      "borrowerId": "borrower-0051",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-retail",
+      "amount": 318000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0052",
+      "borrowerId": "borrower-0052",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-retail",
+      "amount": 843000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0053",
+      "borrowerId": "borrower-0053",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-retail",
+      "amount": 866000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0054",
+      "borrowerId": "borrower-0054",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-retail",
+      "amount": 846000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0055",
+      "borrowerId": "borrower-0055",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-retail",
+      "amount": 117000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0056",
+      "borrowerId": "borrower-0056",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-retail",
+      "amount": 534000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0057",
+      "borrowerId": "borrower-0057",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-retail",
+      "amount": 825000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0058",
+      "borrowerId": "borrower-0058",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-retail",
+      "amount": 506000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0059",
+      "borrowerId": "borrower-0059",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-retail",
+      "amount": 246000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0060",
+      "borrowerId": "borrower-0060",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-retail",
+      "amount": 324000,
+      "status": "Charged Off",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0061",
+      "borrowerId": "borrower-0061",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-retail",
+      "amount": 437000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0062",
+      "borrowerId": "borrower-0062",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-retail",
+      "amount": 891000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0063",
+      "borrowerId": "borrower-0063",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-retail",
+      "amount": 231000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0064",
+      "borrowerId": "borrower-0064",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-retail",
+      "amount": 799000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0065",
+      "borrowerId": "borrower-0065",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-retail",
+      "amount": 896000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0066",
+      "borrowerId": "borrower-0066",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-retail",
+      "amount": 615000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0067",
+      "borrowerId": "borrower-0067",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-retail",
+      "amount": 840000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0068",
+      "borrowerId": "borrower-0068",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-retail",
+      "amount": 328000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0069",
+      "borrowerId": "borrower-0069",
+      "lenderId": "lender-copperhead-credit-union",
+      "lenderName": "Copperhead Credit Union",
+      "sectorId": "sector-retail",
+      "amount": 139000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0070",
+      "borrowerId": "borrower-0070",
+      "lenderId": "lender-regional-development-bank",
+      "lenderName": "Regional Development Bank",
+      "sectorId": "sector-retail",
+      "amount": 315000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0071",
+      "borrowerId": "borrower-0071",
+      "lenderId": "lender-frontier-commerce-bank",
+      "lenderName": "Frontier Commerce Bank",
+      "sectorId": "sector-retail",
+      "amount": 340000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0072",
+      "borrowerId": "borrower-0072",
+      "lenderId": "lender-frontier-commerce-bank",
+      "lenderName": "Frontier Commerce Bank",
+      "sectorId": "sector-retail",
+      "amount": 432000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0073",
+      "borrowerId": "borrower-0073",
+      "lenderId": "lender-gulf-coast-savings",
+      "lenderName": "Gulf Coast Savings",
+      "sectorId": "sector-retail",
+      "amount": 156000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0074",
+      "borrowerId": "borrower-0074",
+      "lenderId": "lender-rio-grande-financial",
+      "lenderName": "Rio Grande Financial",
+      "sectorId": "sector-retail",
+      "amount": 380000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0075",
+      "borrowerId": "borrower-0075",
+      "lenderId": "lender-trinity-merchant-bank",
+      "lenderName": "Trinity Merchant Bank",
+      "sectorId": "sector-retail",
+      "amount": 670000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0076",
+      "borrowerId": "borrower-0076",
+      "lenderId": "lender-pecos-valley-bank",
+      "lenderName": "Pecos Valley Bank",
+      "sectorId": "sector-retail",
+      "amount": 593000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0077",
+      "borrowerId": "borrower-0077",
+      "lenderId": "lender-alamo-business-bank",
+      "lenderName": "Alamo Business Bank",
+      "sectorId": "sector-retail",
+      "amount": 365000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0078",
+      "borrowerId": "borrower-0078",
+      "lenderId": "lender-southwest-trust",
+      "lenderName": "Southwest Trust",
+      "sectorId": "sector-retail",
+      "amount": 204000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0079",
+      "borrowerId": "borrower-0079",
+      "lenderId": "lender-cattleman-s-national",
+      "lenderName": "Cattleman's National",
+      "sectorId": "sector-retail",
+      "amount": 325000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0080",
+      "borrowerId": "borrower-0080",
+      "lenderId": "lender-trinity-merchant-bank",
+      "lenderName": "Trinity Merchant Bank",
+      "sectorId": "sector-retail",
+      "amount": 296000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0081",
+      "borrowerId": "borrower-0081",
+      "lenderId": "lender-ironwood-business-bank",
+      "lenderName": "Ironwood Business Bank",
+      "sectorId": "sector-retail",
+      "amount": 334000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0082",
+      "borrowerId": "borrower-0082",
+      "lenderId": "lender-bayou-city-bank",
+      "lenderName": "Bayou City Bank",
+      "sectorId": "sector-retail",
+      "amount": 654000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0083",
+      "borrowerId": "borrower-0083",
+      "lenderId": "lender-bayou-city-bank",
+      "lenderName": "Bayou City Bank",
+      "sectorId": "sector-retail",
+      "amount": 173000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0084",
+      "borrowerId": "borrower-0084",
+      "lenderId": "lender-silverline-federal",
+      "lenderName": "Silverline Federal",
+      "sectorId": "sector-retail",
+      "amount": 409000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0085",
+      "borrowerId": "borrower-0085",
+      "lenderId": "lender-cattleman-s-national",
+      "lenderName": "Cattleman's National",
+      "sectorId": "sector-retail",
+      "amount": 278000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0086",
+      "borrowerId": "borrower-0086",
+      "lenderId": "lender-alamo-business-bank",
+      "lenderName": "Alamo Business Bank",
+      "sectorId": "sector-retail",
+      "amount": 647000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0087",
+      "borrowerId": "borrower-0087",
+      "lenderId": "lender-frontier-commerce-bank",
+      "lenderName": "Frontier Commerce Bank",
+      "sectorId": "sector-retail",
+      "amount": 431000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0088",
+      "borrowerId": "borrower-0088",
+      "lenderId": "lender-southwest-trust",
+      "lenderName": "Southwest Trust",
+      "sectorId": "sector-retail",
+      "amount": 498000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0089",
+      "borrowerId": "borrower-0089",
+      "lenderId": "lender-copperhead-credit-union",
+      "lenderName": "Copperhead Credit Union",
+      "sectorId": "sector-retail",
+      "amount": 415000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0090",
+      "borrowerId": "borrower-0090",
+      "lenderId": "lender-live-oak-financial",
+      "lenderName": "Live Oak Financial",
+      "sectorId": "sector-retail",
+      "amount": 398000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0091",
+      "borrowerId": "borrower-0091",
+      "lenderId": "lender-prosperity-regional",
+      "lenderName": "Prosperity Regional",
+      "sectorId": "sector-retail",
+      "amount": 664000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0092",
+      "borrowerId": "borrower-0092",
+      "lenderId": "lender-silverline-federal",
+      "lenderName": "Silverline Federal",
+      "sectorId": "sector-retail",
+      "amount": 129000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0093",
+      "borrowerId": "borrower-0093",
+      "lenderId": "lender-bayou-city-bank",
+      "lenderName": "Bayou City Bank",
+      "sectorId": "sector-retail",
+      "amount": 311000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0094",
+      "borrowerId": "borrower-0094",
+      "lenderId": "lender-trinity-merchant-bank",
+      "lenderName": "Trinity Merchant Bank",
+      "sectorId": "sector-retail",
+      "amount": 125000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0095",
+      "borrowerId": "borrower-0095",
+      "lenderId": "lender-pecos-valley-bank",
+      "lenderName": "Pecos Valley Bank",
+      "sectorId": "sector-retail",
+      "amount": 440000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0096",
+      "borrowerId": "borrower-0096",
+      "lenderId": "lender-cattleman-s-national",
+      "lenderName": "Cattleman's National",
+      "sectorId": "sector-retail",
+      "amount": 170000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0097",
+      "borrowerId": "borrower-0097",
+      "lenderId": "lender-cattleman-s-national",
+      "lenderName": "Cattleman's National",
+      "sectorId": "sector-retail",
+      "amount": 183000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0098",
+      "borrowerId": "borrower-0098",
+      "lenderId": "lender-copperhead-credit-union",
+      "lenderName": "Copperhead Credit Union",
+      "sectorId": "sector-retail",
+      "amount": 696000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0099",
+      "borrowerId": "borrower-0099",
+      "lenderId": "lender-pecos-valley-bank",
+      "lenderName": "Pecos Valley Bank",
+      "sectorId": "sector-retail",
+      "amount": 625000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0100",
+      "borrowerId": "borrower-0100",
+      "lenderId": "lender-heritage-trust-bank",
+      "lenderName": "Heritage Trust Bank",
+      "sectorId": "sector-retail",
+      "amount": 186000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0101",
+      "borrowerId": "borrower-0101",
+      "lenderId": "lender-trinity-merchant-bank",
+      "lenderName": "Trinity Merchant Bank",
+      "sectorId": "sector-retail",
+      "amount": 248000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0102",
+      "borrowerId": "borrower-0102",
+      "lenderId": "lender-rio-grande-financial",
+      "lenderName": "Rio Grande Financial",
+      "sectorId": "sector-retail",
+      "amount": 375000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0103",
+      "borrowerId": "borrower-0103",
+      "lenderId": "lender-cattleman-s-national",
+      "lenderName": "Cattleman's National",
+      "sectorId": "sector-retail",
+      "amount": 135000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0104",
+      "borrowerId": "borrower-0104",
+      "lenderId": "lender-lone-star-community-bank",
+      "lenderName": "Lone Star Community Bank",
+      "sectorId": "sector-retail",
+      "amount": 396000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0105",
+      "borrowerId": "borrower-0105",
+      "lenderId": "lender-lone-star-community-bank",
+      "lenderName": "Lone Star Community Bank",
+      "sectorId": "sector-retail",
+      "amount": 71000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0106",
+      "borrowerId": "borrower-0106",
+      "lenderId": "lender-trinity-merchant-bank",
+      "lenderName": "Trinity Merchant Bank",
+      "sectorId": "sector-retail",
+      "amount": 681000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0107",
+      "borrowerId": "borrower-0107",
+      "lenderId": "lender-lone-star-community-bank",
+      "lenderName": "Lone Star Community Bank",
+      "sectorId": "sector-retail",
+      "amount": 489000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0108",
+      "borrowerId": "borrower-0108",
+      "lenderId": "lender-sabine-river-trust",
+      "lenderName": "Sabine River Trust",
+      "sectorId": "sector-retail",
+      "amount": 364000,
+      "status": "Charged Off",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0109",
+      "borrowerId": "borrower-0109",
+      "lenderId": "lender-alamo-business-bank",
+      "lenderName": "Alamo Business Bank",
+      "sectorId": "sector-retail",
+      "amount": 522000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0110",
+      "borrowerId": "borrower-0110",
+      "lenderId": "lender-trinity-merchant-bank",
+      "lenderName": "Trinity Merchant Bank",
+      "sectorId": "sector-retail",
+      "amount": 529000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0111",
+      "borrowerId": "borrower-0111",
+      "lenderId": "lender-prosperity-regional",
+      "lenderName": "Prosperity Regional",
+      "sectorId": "sector-retail",
+      "amount": 602000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0112",
+      "borrowerId": "borrower-0112",
+      "lenderId": "lender-frontier-commerce-bank",
+      "lenderName": "Frontier Commerce Bank",
+      "sectorId": "sector-retail",
+      "amount": 308000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0113",
+      "borrowerId": "borrower-0113",
+      "lenderId": "lender-meridian-west-bank",
+      "lenderName": "Meridian West Bank",
+      "sectorId": "sector-retail",
+      "amount": 514000,
+      "status": "Charged Off",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0114",
+      "borrowerId": "borrower-0114",
+      "lenderId": "lender-copperhead-credit-union",
+      "lenderName": "Copperhead Credit Union",
+      "sectorId": "sector-retail",
+      "amount": 136000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0115",
+      "borrowerId": "borrower-0115",
+      "lenderId": "lender-live-oak-financial",
+      "lenderName": "Live Oak Financial",
+      "sectorId": "sector-retail",
+      "amount": 691000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0116",
+      "borrowerId": "borrower-0116",
+      "lenderId": "lender-cattleman-s-national",
+      "lenderName": "Cattleman's National",
+      "sectorId": "sector-retail",
+      "amount": 445000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0117",
+      "borrowerId": "borrower-0117",
+      "lenderId": "lender-heritage-trust-bank",
+      "lenderName": "Heritage Trust Bank",
+      "sectorId": "sector-retail",
+      "amount": 265000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0118",
+      "borrowerId": "borrower-0118",
+      "lenderId": "lender-cattleman-s-national",
+      "lenderName": "Cattleman's National",
+      "sectorId": "sector-retail",
+      "amount": 369000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0119",
+      "borrowerId": "borrower-0119",
+      "lenderId": "lender-prosperity-regional",
+      "lenderName": "Prosperity Regional",
+      "sectorId": "sector-retail",
+      "amount": 322000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0120",
+      "borrowerId": "borrower-0120",
+      "lenderId": "lender-southwest-trust",
+      "lenderName": "Southwest Trust",
+      "sectorId": "sector-retail",
+      "amount": 341000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0121",
+      "borrowerId": "borrower-0121",
+      "lenderId": "lender-live-oak-financial",
+      "lenderName": "Live Oak Financial",
+      "sectorId": "sector-retail",
+      "amount": 644000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0122",
+      "borrowerId": "borrower-0122",
+      "lenderId": "lender-meridian-west-bank",
+      "lenderName": "Meridian West Bank",
+      "sectorId": "sector-retail",
+      "amount": 145000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0123",
+      "borrowerId": "borrower-0123",
+      "lenderId": "lender-sabine-river-trust",
+      "lenderName": "Sabine River Trust",
+      "sectorId": "sector-retail",
+      "amount": 363000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0124",
+      "borrowerId": "borrower-0124",
+      "lenderId": "lender-frontier-commerce-bank",
+      "lenderName": "Frontier Commerce Bank",
+      "sectorId": "sector-retail",
+      "amount": 213000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0125",
+      "borrowerId": "borrower-0125",
+      "lenderId": "lender-rio-grande-financial",
+      "lenderName": "Rio Grande Financial",
+      "sectorId": "sector-retail",
+      "amount": 564000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0126",
+      "borrowerId": "borrower-0126",
+      "lenderId": "lender-meridian-west-bank",
+      "lenderName": "Meridian West Bank",
+      "sectorId": "sector-retail",
+      "amount": 330000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0127",
+      "borrowerId": "borrower-0127",
+      "lenderId": "lender-alamo-business-bank",
+      "lenderName": "Alamo Business Bank",
+      "sectorId": "sector-retail",
+      "amount": 379000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0128",
+      "borrowerId": "borrower-0128",
+      "lenderId": "lender-mockingbird-bank",
+      "lenderName": "Mockingbird Bank",
+      "sectorId": "sector-retail",
+      "amount": 278000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0129",
+      "borrowerId": "borrower-0129",
+      "lenderId": "lender-highland-plains-trust",
+      "lenderName": "Highland Plains Trust",
+      "sectorId": "sector-retail",
+      "amount": 243000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0130",
+      "borrowerId": "borrower-0130",
+      "lenderId": "lender-highland-plains-trust",
+      "lenderName": "Highland Plains Trust",
+      "sectorId": "sector-retail",
+      "amount": 491000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0131",
+      "borrowerId": "borrower-0131",
+      "lenderId": "lender-heritage-trust-bank",
+      "lenderName": "Heritage Trust Bank",
+      "sectorId": "sector-retail",
+      "amount": 589000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0132",
+      "borrowerId": "borrower-0132",
+      "lenderId": "lender-ironwood-business-bank",
+      "lenderName": "Ironwood Business Bank",
+      "sectorId": "sector-retail",
+      "amount": 101000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0133",
+      "borrowerId": "borrower-0133",
+      "lenderId": "lender-live-oak-financial",
+      "lenderName": "Live Oak Financial",
+      "sectorId": "sector-retail",
+      "amount": 549000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0134",
+      "borrowerId": "borrower-0134",
+      "lenderId": "lender-bluepeak-bank",
+      "lenderName": "BluePeak Bank",
+      "sectorId": "sector-retail",
+      "amount": 194000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0135",
+      "borrowerId": "borrower-0135",
+      "lenderId": "lender-mockingbird-bank",
+      "lenderName": "Mockingbird Bank",
+      "sectorId": "sector-retail",
+      "amount": 557000,
+      "status": "Charged Off",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0136",
+      "borrowerId": "borrower-0136",
+      "lenderId": "lender-texas-capital-bank",
+      "lenderName": "Texas Capital Bank",
+      "sectorId": "sector-retail",
+      "amount": 552000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0137",
+      "borrowerId": "borrower-0137",
+      "lenderId": "lender-live-oak-financial",
+      "lenderName": "Live Oak Financial",
+      "sectorId": "sector-retail",
+      "amount": 396000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0138",
+      "borrowerId": "borrower-0138",
+      "lenderId": "lender-cattleman-s-national",
+      "lenderName": "Cattleman's National",
+      "sectorId": "sector-retail",
+      "amount": 307000,
+      "status": "Charged Off",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0139",
+      "borrowerId": "borrower-0139",
+      "lenderId": "lender-pecos-valley-bank",
+      "lenderName": "Pecos Valley Bank",
+      "sectorId": "sector-retail",
+      "amount": 501000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0140",
+      "borrowerId": "borrower-0140",
+      "lenderId": "lender-panhandle-federal",
+      "lenderName": "Panhandle Federal",
+      "sectorId": "sector-retail",
+      "amount": 544000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0141",
+      "borrowerId": "borrower-0141",
+      "lenderId": "lender-rio-grande-financial",
+      "lenderName": "Rio Grande Financial",
+      "sectorId": "sector-retail",
+      "amount": 654000,
+      "status": "Charged Off",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0142",
+      "borrowerId": "borrower-0142",
+      "lenderId": "lender-ironwood-business-bank",
+      "lenderName": "Ironwood Business Bank",
+      "sectorId": "sector-retail",
+      "amount": 396000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0143",
+      "borrowerId": "borrower-0143",
+      "lenderId": "lender-panhandle-federal",
+      "lenderName": "Panhandle Federal",
+      "sectorId": "sector-retail",
+      "amount": 638000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0144",
+      "borrowerId": "borrower-0144",
+      "lenderId": "lender-regional-development-bank",
+      "lenderName": "Regional Development Bank",
+      "sectorId": "sector-retail",
+      "amount": 296000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0145",
+      "borrowerId": "borrower-0145",
+      "lenderId": "lender-silverline-federal",
+      "lenderName": "Silverline Federal",
+      "sectorId": "sector-retail",
+      "amount": 237000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0146",
+      "borrowerId": "borrower-0146",
+      "lenderId": "lender-cattleman-s-national",
+      "lenderName": "Cattleman's National",
+      "sectorId": "sector-retail",
+      "amount": 678000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0147",
+      "borrowerId": "borrower-0147",
+      "lenderId": "lender-live-oak-financial",
+      "lenderName": "Live Oak Financial",
+      "sectorId": "sector-retail",
+      "amount": 534000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0148",
+      "borrowerId": "borrower-0148",
+      "lenderId": "lender-bluepeak-bank",
+      "lenderName": "BluePeak Bank",
+      "sectorId": "sector-retail",
+      "amount": 674000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0149",
+      "borrowerId": "borrower-0149",
+      "lenderId": "lender-frontier-commerce-bank",
+      "lenderName": "Frontier Commerce Bank",
+      "sectorId": "sector-retail",
+      "amount": 663000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0150",
+      "borrowerId": "borrower-0150",
+      "lenderId": "lender-lone-star-community-bank",
+      "lenderName": "Lone Star Community Bank",
+      "sectorId": "sector-retail",
+      "amount": 67000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0151",
+      "borrowerId": "borrower-0151",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-technology",
+      "amount": 519000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0152",
+      "borrowerId": "borrower-0152",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-technology",
+      "amount": 110000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0153",
+      "borrowerId": "borrower-0153",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-technology",
+      "amount": 795000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0154",
+      "borrowerId": "borrower-0154",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-technology",
+      "amount": 458000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0155",
+      "borrowerId": "borrower-0155",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-technology",
+      "amount": 602000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0156",
+      "borrowerId": "borrower-0156",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-technology",
+      "amount": 654000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0157",
+      "borrowerId": "borrower-0157",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-technology",
+      "amount": 811000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0158",
+      "borrowerId": "borrower-0158",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-technology",
+      "amount": 620000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0159",
+      "borrowerId": "borrower-0159",
+      "lenderId": "lender-southwest-trust",
+      "lenderName": "Southwest Trust",
+      "sectorId": "sector-technology",
+      "amount": 585000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0160",
+      "borrowerId": "borrower-0160",
+      "lenderId": "lender-southwest-trust",
+      "lenderName": "Southwest Trust",
+      "sectorId": "sector-technology",
+      "amount": 304000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0161",
+      "borrowerId": "borrower-0161",
+      "lenderId": "lender-southwest-trust",
+      "lenderName": "Southwest Trust",
+      "sectorId": "sector-technology",
+      "amount": 506000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0162",
+      "borrowerId": "borrower-0162",
+      "lenderId": "lender-ironwood-business-bank",
+      "lenderName": "Ironwood Business Bank",
+      "sectorId": "sector-technology",
+      "amount": 1194000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0163",
+      "borrowerId": "borrower-0163",
+      "lenderId": "lender-live-oak-financial",
+      "lenderName": "Live Oak Financial",
+      "sectorId": "sector-technology",
+      "amount": 480000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0164",
+      "borrowerId": "borrower-0164",
+      "lenderId": "lender-mockingbird-bank",
+      "lenderName": "Mockingbird Bank",
+      "sectorId": "sector-technology",
+      "amount": 630000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0165",
+      "borrowerId": "borrower-0165",
+      "lenderId": "lender-prosperity-regional",
+      "lenderName": "Prosperity Regional",
+      "sectorId": "sector-technology",
+      "amount": 413000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0166",
+      "borrowerId": "borrower-0166",
+      "lenderId": "lender-gulf-coast-savings",
+      "lenderName": "Gulf Coast Savings",
+      "sectorId": "sector-technology",
+      "amount": 408000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0167",
+      "borrowerId": "borrower-0167",
+      "lenderId": "lender-silverline-federal",
+      "lenderName": "Silverline Federal",
+      "sectorId": "sector-technology",
+      "amount": 166000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0168",
+      "borrowerId": "borrower-0168",
+      "lenderId": "lender-panhandle-federal",
+      "lenderName": "Panhandle Federal",
+      "sectorId": "sector-technology",
+      "amount": 554000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0169",
+      "borrowerId": "borrower-0169",
+      "lenderId": "lender-copperhead-credit-union",
+      "lenderName": "Copperhead Credit Union",
+      "sectorId": "sector-technology",
+      "amount": 178000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0170",
+      "borrowerId": "borrower-0170",
+      "lenderId": "lender-cattleman-s-national",
+      "lenderName": "Cattleman's National",
+      "sectorId": "sector-technology",
+      "amount": 150000,
+      "status": "Charged Off",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0171",
+      "borrowerId": "borrower-0171",
+      "lenderId": "lender-silverline-federal",
+      "lenderName": "Silverline Federal",
+      "sectorId": "sector-technology",
+      "amount": 601000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0172",
+      "borrowerId": "borrower-0172",
+      "lenderId": "lender-lone-star-community-bank",
+      "lenderName": "Lone Star Community Bank",
+      "sectorId": "sector-technology",
+      "amount": 995000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0173",
+      "borrowerId": "borrower-0173",
+      "lenderId": "lender-silverline-federal",
+      "lenderName": "Silverline Federal",
+      "sectorId": "sector-technology",
+      "amount": 1173000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0174",
+      "borrowerId": "borrower-0174",
+      "lenderId": "lender-ironwood-business-bank",
+      "lenderName": "Ironwood Business Bank",
+      "sectorId": "sector-technology",
+      "amount": 644000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0175",
+      "borrowerId": "borrower-0175",
+      "lenderId": "lender-alamo-business-bank",
+      "lenderName": "Alamo Business Bank",
+      "sectorId": "sector-technology",
+      "amount": 729000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0176",
+      "borrowerId": "borrower-0176",
+      "lenderId": "lender-regional-development-bank",
+      "lenderName": "Regional Development Bank",
+      "sectorId": "sector-technology",
+      "amount": 608000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0177",
+      "borrowerId": "borrower-0177",
+      "lenderId": "lender-meridian-west-bank",
+      "lenderName": "Meridian West Bank",
+      "sectorId": "sector-technology",
+      "amount": 200000,
+      "status": "Charged Off",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0178",
+      "borrowerId": "borrower-0178",
+      "lenderId": "lender-rio-grande-financial",
+      "lenderName": "Rio Grande Financial",
+      "sectorId": "sector-technology",
+      "amount": 584000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0179",
+      "borrowerId": "borrower-0179",
+      "lenderId": "lender-silverline-federal",
+      "lenderName": "Silverline Federal",
+      "sectorId": "sector-technology",
+      "amount": 936000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0180",
+      "borrowerId": "borrower-0180",
+      "lenderId": "lender-silverline-federal",
+      "lenderName": "Silverline Federal",
+      "sectorId": "sector-technology",
+      "amount": 1095000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0181",
+      "borrowerId": "borrower-0181",
+      "lenderId": "lender-pecos-valley-bank",
+      "lenderName": "Pecos Valley Bank",
+      "sectorId": "sector-technology",
+      "amount": 653000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0182",
+      "borrowerId": "borrower-0182",
+      "lenderId": "lender-copperhead-credit-union",
+      "lenderName": "Copperhead Credit Union",
+      "sectorId": "sector-technology",
+      "amount": 1137000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0183",
+      "borrowerId": "borrower-0183",
+      "lenderId": "lender-trinity-merchant-bank",
+      "lenderName": "Trinity Merchant Bank",
+      "sectorId": "sector-technology",
+      "amount": 575000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0184",
+      "borrowerId": "borrower-0184",
+      "lenderId": "lender-mockingbird-bank",
+      "lenderName": "Mockingbird Bank",
+      "sectorId": "sector-technology",
+      "amount": 1028000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0185",
+      "borrowerId": "borrower-0185",
+      "lenderId": "lender-meridian-west-bank",
+      "lenderName": "Meridian West Bank",
+      "sectorId": "sector-technology",
+      "amount": 194000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0186",
+      "borrowerId": "borrower-0186",
+      "lenderId": "lender-prosperity-regional",
+      "lenderName": "Prosperity Regional",
+      "sectorId": "sector-technology",
+      "amount": 423000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0187",
+      "borrowerId": "borrower-0187",
+      "lenderId": "lender-rio-grande-financial",
+      "lenderName": "Rio Grande Financial",
+      "sectorId": "sector-technology",
+      "amount": 690000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0188",
+      "borrowerId": "borrower-0188",
+      "lenderId": "lender-pecos-valley-bank",
+      "lenderName": "Pecos Valley Bank",
+      "sectorId": "sector-technology",
+      "amount": 422000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0189",
+      "borrowerId": "borrower-0189",
+      "lenderId": "lender-silverline-federal",
+      "lenderName": "Silverline Federal",
+      "sectorId": "sector-technology",
+      "amount": 732000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0190",
+      "borrowerId": "borrower-0190",
+      "lenderId": "lender-silverline-federal",
+      "lenderName": "Silverline Federal",
+      "sectorId": "sector-technology",
+      "amount": 844000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0191",
+      "borrowerId": "borrower-0191",
+      "lenderId": "lender-meridian-west-bank",
+      "lenderName": "Meridian West Bank",
+      "sectorId": "sector-technology",
+      "amount": 800000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0192",
+      "borrowerId": "borrower-0192",
+      "lenderId": "lender-mockingbird-bank",
+      "lenderName": "Mockingbird Bank",
+      "sectorId": "sector-technology",
+      "amount": 483000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0193",
+      "borrowerId": "borrower-0193",
+      "lenderId": "lender-frontier-commerce-bank",
+      "lenderName": "Frontier Commerce Bank",
+      "sectorId": "sector-technology",
+      "amount": 470000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0194",
+      "borrowerId": "borrower-0194",
+      "lenderId": "lender-highland-plains-trust",
+      "lenderName": "Highland Plains Trust",
+      "sectorId": "sector-technology",
+      "amount": 313000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0195",
+      "borrowerId": "borrower-0195",
+      "lenderId": "lender-silverline-federal",
+      "lenderName": "Silverline Federal",
+      "sectorId": "sector-technology",
+      "amount": 879000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0196",
+      "borrowerId": "borrower-0196",
+      "lenderId": "lender-texas-capital-bank",
+      "lenderName": "Texas Capital Bank",
+      "sectorId": "sector-technology",
+      "amount": 773000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0197",
+      "borrowerId": "borrower-0197",
+      "lenderId": "lender-mockingbird-bank",
+      "lenderName": "Mockingbird Bank",
+      "sectorId": "sector-technology",
+      "amount": 162000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0198",
+      "borrowerId": "borrower-0198",
+      "lenderId": "lender-frontier-commerce-bank",
+      "lenderName": "Frontier Commerce Bank",
+      "sectorId": "sector-technology",
+      "amount": 902000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0199",
+      "borrowerId": "borrower-0199",
+      "lenderId": "lender-rio-grande-financial",
+      "lenderName": "Rio Grande Financial",
+      "sectorId": "sector-technology",
+      "amount": 733000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0200",
+      "borrowerId": "borrower-0200",
+      "lenderId": "lender-bayou-city-bank",
+      "lenderName": "Bayou City Bank",
+      "sectorId": "sector-technology",
+      "amount": 441000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0201",
+      "borrowerId": "borrower-0201",
+      "lenderId": "lender-cattleman-s-national",
+      "lenderName": "Cattleman's National",
+      "sectorId": "sector-technology",
+      "amount": 90000,
+      "status": "Charged Off",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0202",
+      "borrowerId": "borrower-0202",
+      "lenderId": "lender-alamo-business-bank",
+      "lenderName": "Alamo Business Bank",
+      "sectorId": "sector-technology",
+      "amount": 444000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0203",
+      "borrowerId": "borrower-0203",
+      "lenderId": "lender-southwest-trust",
+      "lenderName": "Southwest Trust",
+      "sectorId": "sector-technology",
+      "amount": 130000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0204",
+      "borrowerId": "borrower-0204",
+      "lenderId": "lender-mockingbird-bank",
+      "lenderName": "Mockingbird Bank",
+      "sectorId": "sector-technology",
+      "amount": 200000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0205",
+      "borrowerId": "borrower-0205",
+      "lenderId": "lender-meridian-west-bank",
+      "lenderName": "Meridian West Bank",
+      "sectorId": "sector-technology",
+      "amount": 1110000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0206",
+      "borrowerId": "borrower-0206",
+      "lenderId": "lender-rio-grande-financial",
+      "lenderName": "Rio Grande Financial",
+      "sectorId": "sector-technology",
+      "amount": 435000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0207",
+      "borrowerId": "borrower-0207",
+      "lenderId": "lender-texas-capital-bank",
+      "lenderName": "Texas Capital Bank",
+      "sectorId": "sector-technology",
+      "amount": 771000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0208",
+      "borrowerId": "borrower-0208",
+      "lenderId": "lender-alamo-business-bank",
+      "lenderName": "Alamo Business Bank",
+      "sectorId": "sector-technology",
+      "amount": 600000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0209",
+      "borrowerId": "borrower-0209",
+      "lenderId": "lender-frontier-commerce-bank",
+      "lenderName": "Frontier Commerce Bank",
+      "sectorId": "sector-technology",
+      "amount": 335000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0210",
+      "borrowerId": "borrower-0210",
+      "lenderId": "lender-cattleman-s-national",
+      "lenderName": "Cattleman's National",
+      "sectorId": "sector-technology",
+      "amount": 229000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0211",
+      "borrowerId": "borrower-0211",
+      "lenderId": "lender-pecos-valley-bank",
+      "lenderName": "Pecos Valley Bank",
+      "sectorId": "sector-technology",
+      "amount": 118000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0212",
+      "borrowerId": "borrower-0212",
+      "lenderId": "lender-sabine-river-trust",
+      "lenderName": "Sabine River Trust",
+      "sectorId": "sector-technology",
+      "amount": 1036000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0213",
+      "borrowerId": "borrower-0213",
+      "lenderId": "lender-bluepeak-bank",
+      "lenderName": "BluePeak Bank",
+      "sectorId": "sector-technology",
+      "amount": 887000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0214",
+      "borrowerId": "borrower-0214",
+      "lenderId": "lender-mockingbird-bank",
+      "lenderName": "Mockingbird Bank",
+      "sectorId": "sector-technology",
+      "amount": 180000,
+      "status": "Charged Off",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0215",
+      "borrowerId": "borrower-0215",
+      "lenderId": "lender-bluepeak-bank",
+      "lenderName": "BluePeak Bank",
+      "sectorId": "sector-technology",
+      "amount": 407000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0216",
+      "borrowerId": "borrower-0216",
+      "lenderId": "lender-live-oak-financial",
+      "lenderName": "Live Oak Financial",
+      "sectorId": "sector-technology",
+      "amount": 617000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0217",
+      "borrowerId": "borrower-0217",
+      "lenderId": "lender-texas-capital-bank",
+      "lenderName": "Texas Capital Bank",
+      "sectorId": "sector-technology",
+      "amount": 721000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0218",
+      "borrowerId": "borrower-0218",
+      "lenderId": "lender-frontier-commerce-bank",
+      "lenderName": "Frontier Commerce Bank",
+      "sectorId": "sector-technology",
+      "amount": 763000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0219",
+      "borrowerId": "borrower-0219",
+      "lenderId": "lender-heritage-trust-bank",
+      "lenderName": "Heritage Trust Bank",
+      "sectorId": "sector-technology",
+      "amount": 622000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0220",
+      "borrowerId": "borrower-0220",
+      "lenderId": "lender-live-oak-financial",
+      "lenderName": "Live Oak Financial",
+      "sectorId": "sector-technology",
+      "amount": 879000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0221",
+      "borrowerId": "borrower-0221",
+      "lenderId": "lender-trinity-merchant-bank",
+      "lenderName": "Trinity Merchant Bank",
+      "sectorId": "sector-technology",
+      "amount": 1085000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0222",
+      "borrowerId": "borrower-0222",
+      "lenderId": "lender-alamo-business-bank",
+      "lenderName": "Alamo Business Bank",
+      "sectorId": "sector-technology",
+      "amount": 995000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0223",
+      "borrowerId": "borrower-0223",
+      "lenderId": "lender-alamo-business-bank",
+      "lenderName": "Alamo Business Bank",
+      "sectorId": "sector-technology",
+      "amount": 326000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0224",
+      "borrowerId": "borrower-0224",
+      "lenderId": "lender-texas-capital-bank",
+      "lenderName": "Texas Capital Bank",
+      "sectorId": "sector-technology",
+      "amount": 356000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0225",
+      "borrowerId": "borrower-0225",
+      "lenderId": "lender-highland-plains-trust",
+      "lenderName": "Highland Plains Trust",
+      "sectorId": "sector-technology",
+      "amount": 718000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0226",
+      "borrowerId": "borrower-0226",
+      "lenderId": "lender-alamo-business-bank",
+      "lenderName": "Alamo Business Bank",
+      "sectorId": "sector-technology",
+      "amount": 263000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0227",
+      "borrowerId": "borrower-0227",
+      "lenderId": "lender-highland-plains-trust",
+      "lenderName": "Highland Plains Trust",
+      "sectorId": "sector-technology",
+      "amount": 889000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0228",
+      "borrowerId": "borrower-0228",
+      "lenderId": "lender-rio-grande-financial",
+      "lenderName": "Rio Grande Financial",
+      "sectorId": "sector-technology",
+      "amount": 993000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0229",
+      "borrowerId": "borrower-0229",
+      "lenderId": "lender-live-oak-financial",
+      "lenderName": "Live Oak Financial",
+      "sectorId": "sector-technology",
+      "amount": 785000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0230",
+      "borrowerId": "borrower-0230",
+      "lenderId": "lender-southwest-trust",
+      "lenderName": "Southwest Trust",
+      "sectorId": "sector-technology",
+      "amount": 555000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0231",
+      "borrowerId": "borrower-0231",
+      "lenderId": "lender-live-oak-financial",
+      "lenderName": "Live Oak Financial",
+      "sectorId": "sector-technology",
+      "amount": 803000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0232",
+      "borrowerId": "borrower-0232",
+      "lenderId": "lender-bluepeak-bank",
+      "lenderName": "BluePeak Bank",
+      "sectorId": "sector-technology",
+      "amount": 871000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0233",
+      "borrowerId": "borrower-0233",
+      "lenderId": "lender-meridian-west-bank",
+      "lenderName": "Meridian West Bank",
+      "sectorId": "sector-technology",
+      "amount": 559000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0234",
+      "borrowerId": "borrower-0234",
+      "lenderId": "lender-cattleman-s-national",
+      "lenderName": "Cattleman's National",
+      "sectorId": "sector-technology",
+      "amount": 239000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0235",
+      "borrowerId": "borrower-0235",
+      "lenderId": "lender-mockingbird-bank",
+      "lenderName": "Mockingbird Bank",
+      "sectorId": "sector-technology",
+      "amount": 616000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0236",
+      "borrowerId": "borrower-0236",
+      "lenderId": "lender-heritage-trust-bank",
+      "lenderName": "Heritage Trust Bank",
+      "sectorId": "sector-technology",
+      "amount": 992000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0237",
+      "borrowerId": "borrower-0237",
+      "lenderId": "lender-live-oak-financial",
+      "lenderName": "Live Oak Financial",
+      "sectorId": "sector-technology",
+      "amount": 507000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0238",
+      "borrowerId": "borrower-0238",
+      "lenderId": "lender-mockingbird-bank",
+      "lenderName": "Mockingbird Bank",
+      "sectorId": "sector-technology",
+      "amount": 111000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0239",
+      "borrowerId": "borrower-0239",
+      "lenderId": "lender-frontier-commerce-bank",
+      "lenderName": "Frontier Commerce Bank",
+      "sectorId": "sector-technology",
+      "amount": 836000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0240",
+      "borrowerId": "borrower-0240",
+      "lenderId": "lender-cattleman-s-national",
+      "lenderName": "Cattleman's National",
+      "sectorId": "sector-technology",
+      "amount": 587000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0241",
+      "borrowerId": "borrower-0241",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 675000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0242",
+      "borrowerId": "borrower-0242",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 275000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0243",
+      "borrowerId": "borrower-0243",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 229000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0244",
+      "borrowerId": "borrower-0244",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 310000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0245",
+      "borrowerId": "borrower-0245",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 651000,
+      "status": "Charged Off",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0246",
+      "borrowerId": "borrower-0246",
+      "lenderId": "lender-first-national-bank",
+      "lenderName": "First National Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 963000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0247",
+      "borrowerId": "borrower-0247",
+      "lenderId": "lender-alamo-business-bank",
+      "lenderName": "Alamo Business Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 221000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0248",
+      "borrowerId": "borrower-0248",
+      "lenderId": "lender-cattleman-s-national",
+      "lenderName": "Cattleman's National",
+      "sectorId": "sector-healthcare",
+      "amount": 712000,
+      "status": "Charged Off",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0249",
+      "borrowerId": "borrower-0249",
+      "lenderId": "lender-cattleman-s-national",
+      "lenderName": "Cattleman's National",
+      "sectorId": "sector-healthcare",
+      "amount": 599000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0250",
+      "borrowerId": "borrower-0250",
+      "lenderId": "lender-bayou-city-bank",
+      "lenderName": "Bayou City Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 326000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0251",
+      "borrowerId": "borrower-0251",
+      "lenderId": "lender-trinity-merchant-bank",
+      "lenderName": "Trinity Merchant Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 337000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0252",
+      "borrowerId": "borrower-0252",
+      "lenderId": "lender-highland-plains-trust",
+      "lenderName": "Highland Plains Trust",
+      "sectorId": "sector-healthcare",
+      "amount": 1074000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0253",
+      "borrowerId": "borrower-0253",
+      "lenderId": "lender-highland-plains-trust",
+      "lenderName": "Highland Plains Trust",
+      "sectorId": "sector-healthcare",
+      "amount": 321000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0254",
+      "borrowerId": "borrower-0254",
+      "lenderId": "lender-alamo-business-bank",
+      "lenderName": "Alamo Business Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 1181000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0255",
+      "borrowerId": "borrower-0255",
+      "lenderId": "lender-silverline-federal",
+      "lenderName": "Silverline Federal",
+      "sectorId": "sector-healthcare",
+      "amount": 107000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0256",
+      "borrowerId": "borrower-0256",
+      "lenderId": "lender-heritage-trust-bank",
+      "lenderName": "Heritage Trust Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 204000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0257",
+      "borrowerId": "borrower-0257",
+      "lenderId": "lender-frontier-commerce-bank",
+      "lenderName": "Frontier Commerce Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 584000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0258",
+      "borrowerId": "borrower-0258",
+      "lenderId": "lender-rio-grande-financial",
+      "lenderName": "Rio Grande Financial",
+      "sectorId": "sector-healthcare",
+      "amount": 361000,
+      "status": "Charged Off",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0259",
+      "borrowerId": "borrower-0259",
+      "lenderId": "lender-gulf-coast-savings",
+      "lenderName": "Gulf Coast Savings",
+      "sectorId": "sector-healthcare",
+      "amount": 1308000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0260",
+      "borrowerId": "borrower-0260",
+      "lenderId": "lender-live-oak-financial",
+      "lenderName": "Live Oak Financial",
+      "sectorId": "sector-healthcare",
+      "amount": 1208000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0261",
+      "borrowerId": "borrower-0261",
+      "lenderId": "lender-southwest-trust",
+      "lenderName": "Southwest Trust",
+      "sectorId": "sector-healthcare",
+      "amount": 503000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0262",
+      "borrowerId": "borrower-0262",
+      "lenderId": "lender-rio-grande-financial",
+      "lenderName": "Rio Grande Financial",
+      "sectorId": "sector-healthcare",
+      "amount": 970000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0263",
+      "borrowerId": "borrower-0263",
+      "lenderId": "lender-live-oak-financial",
+      "lenderName": "Live Oak Financial",
+      "sectorId": "sector-healthcare",
+      "amount": 389000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0264",
+      "borrowerId": "borrower-0264",
+      "lenderId": "lender-southwest-trust",
+      "lenderName": "Southwest Trust",
+      "sectorId": "sector-healthcare",
+      "amount": 535000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0265",
+      "borrowerId": "borrower-0265",
+      "lenderId": "lender-gulf-coast-savings",
+      "lenderName": "Gulf Coast Savings",
+      "sectorId": "sector-healthcare",
+      "amount": 521000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0266",
+      "borrowerId": "borrower-0266",
+      "lenderId": "lender-pecos-valley-bank",
+      "lenderName": "Pecos Valley Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 790000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0267",
+      "borrowerId": "borrower-0267",
+      "lenderId": "lender-bluepeak-bank",
+      "lenderName": "BluePeak Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 455000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0268",
+      "borrowerId": "borrower-0268",
+      "lenderId": "lender-alamo-business-bank",
+      "lenderName": "Alamo Business Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 1292000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0269",
+      "borrowerId": "borrower-0269",
+      "lenderId": "lender-bluepeak-bank",
+      "lenderName": "BluePeak Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 1080000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0270",
+      "borrowerId": "borrower-0270",
+      "lenderId": "lender-alamo-business-bank",
+      "lenderName": "Alamo Business Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 265000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0271",
+      "borrowerId": "borrower-0271",
+      "lenderId": "lender-regional-development-bank",
+      "lenderName": "Regional Development Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 621000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0272",
+      "borrowerId": "borrower-0272",
+      "lenderId": "lender-heritage-trust-bank",
+      "lenderName": "Heritage Trust Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 1260000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0273",
+      "borrowerId": "borrower-0273",
+      "lenderId": "lender-trinity-merchant-bank",
+      "lenderName": "Trinity Merchant Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 1295000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0274",
+      "borrowerId": "borrower-0274",
+      "lenderId": "lender-sabine-river-trust",
+      "lenderName": "Sabine River Trust",
+      "sectorId": "sector-healthcare",
+      "amount": 1170000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0275",
+      "borrowerId": "borrower-0275",
+      "lenderId": "lender-meridian-west-bank",
+      "lenderName": "Meridian West Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 1328000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0276",
+      "borrowerId": "borrower-0276",
+      "lenderId": "lender-bayou-city-bank",
+      "lenderName": "Bayou City Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 883000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0277",
+      "borrowerId": "borrower-0277",
+      "lenderId": "lender-bluepeak-bank",
+      "lenderName": "BluePeak Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 277000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0278",
+      "borrowerId": "borrower-0278",
+      "lenderId": "lender-southwest-trust",
+      "lenderName": "Southwest Trust",
+      "sectorId": "sector-healthcare",
+      "amount": 1286000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0279",
+      "borrowerId": "borrower-0279",
+      "lenderId": "lender-alamo-business-bank",
+      "lenderName": "Alamo Business Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 360000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0280",
+      "borrowerId": "borrower-0280",
+      "lenderId": "lender-highland-plains-trust",
+      "lenderName": "Highland Plains Trust",
+      "sectorId": "sector-healthcare",
+      "amount": 604000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0281",
+      "borrowerId": "borrower-0281",
+      "lenderId": "lender-trinity-merchant-bank",
+      "lenderName": "Trinity Merchant Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 1132000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0282",
+      "borrowerId": "borrower-0282",
+      "lenderId": "lender-sabine-river-trust",
+      "lenderName": "Sabine River Trust",
+      "sectorId": "sector-healthcare",
+      "amount": 1057000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0283",
+      "borrowerId": "borrower-0283",
+      "lenderId": "lender-bluepeak-bank",
+      "lenderName": "BluePeak Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 821000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0284",
+      "borrowerId": "borrower-0284",
+      "lenderId": "lender-frontier-commerce-bank",
+      "lenderName": "Frontier Commerce Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 868000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0285",
+      "borrowerId": "borrower-0285",
+      "lenderId": "lender-heritage-trust-bank",
+      "lenderName": "Heritage Trust Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 312000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0286",
+      "borrowerId": "borrower-0286",
+      "lenderId": "lender-mockingbird-bank",
+      "lenderName": "Mockingbird Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 926000,
+      "status": "Charged Off",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0287",
+      "borrowerId": "borrower-0287",
+      "lenderId": "lender-mockingbird-bank",
+      "lenderName": "Mockingbird Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 493000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0288",
+      "borrowerId": "borrower-0288",
+      "lenderId": "lender-southwest-trust",
+      "lenderName": "Southwest Trust",
+      "sectorId": "sector-healthcare",
+      "amount": 787000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0289",
+      "borrowerId": "borrower-0289",
+      "lenderId": "lender-texas-capital-bank",
+      "lenderName": "Texas Capital Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 921000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0290",
+      "borrowerId": "borrower-0290",
+      "lenderId": "lender-texas-capital-bank",
+      "lenderName": "Texas Capital Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 1338000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0291",
+      "borrowerId": "borrower-0291",
+      "lenderId": "lender-sabine-river-trust",
+      "lenderName": "Sabine River Trust",
+      "sectorId": "sector-healthcare",
+      "amount": 1151000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0292",
+      "borrowerId": "borrower-0292",
+      "lenderId": "lender-rio-grande-financial",
+      "lenderName": "Rio Grande Financial",
+      "sectorId": "sector-healthcare",
+      "amount": 804000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0293",
+      "borrowerId": "borrower-0293",
+      "lenderId": "lender-prosperity-regional",
+      "lenderName": "Prosperity Regional",
+      "sectorId": "sector-healthcare",
+      "amount": 741000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0294",
+      "borrowerId": "borrower-0294",
+      "lenderId": "lender-ironwood-business-bank",
+      "lenderName": "Ironwood Business Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 74000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0295",
+      "borrowerId": "borrower-0295",
+      "lenderId": "lender-southwest-trust",
+      "lenderName": "Southwest Trust",
+      "sectorId": "sector-healthcare",
+      "amount": 577000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0296",
+      "borrowerId": "borrower-0296",
+      "lenderId": "lender-bluepeak-bank",
+      "lenderName": "BluePeak Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 1364000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0297",
+      "borrowerId": "borrower-0297",
+      "lenderId": "lender-trinity-merchant-bank",
+      "lenderName": "Trinity Merchant Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 216000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0298",
+      "borrowerId": "borrower-0298",
+      "lenderId": "lender-pecos-valley-bank",
+      "lenderName": "Pecos Valley Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 239000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0299",
+      "borrowerId": "borrower-0299",
+      "lenderId": "lender-frontier-commerce-bank",
+      "lenderName": "Frontier Commerce Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 545000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0300",
+      "borrowerId": "borrower-0300",
+      "lenderId": "lender-trinity-merchant-bank",
+      "lenderName": "Trinity Merchant Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 248000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0301",
+      "borrowerId": "borrower-0301",
+      "lenderId": "lender-pecos-valley-bank",
+      "lenderName": "Pecos Valley Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 1121000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0302",
+      "borrowerId": "borrower-0302",
+      "lenderId": "lender-rio-grande-financial",
+      "lenderName": "Rio Grande Financial",
+      "sectorId": "sector-healthcare",
+      "amount": 946000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0303",
+      "borrowerId": "borrower-0303",
+      "lenderId": "lender-ironwood-business-bank",
+      "lenderName": "Ironwood Business Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 168000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0304",
+      "borrowerId": "borrower-0304",
+      "lenderId": "lender-bluepeak-bank",
+      "lenderName": "BluePeak Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 561000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0305",
+      "borrowerId": "borrower-0305",
+      "lenderId": "lender-alamo-business-bank",
+      "lenderName": "Alamo Business Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 1237000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0306",
+      "borrowerId": "borrower-0306",
+      "lenderId": "lender-sabine-river-trust",
+      "lenderName": "Sabine River Trust",
+      "sectorId": "sector-healthcare",
+      "amount": 1309000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0307",
+      "borrowerId": "borrower-0307",
+      "lenderId": "lender-silverline-federal",
+      "lenderName": "Silverline Federal",
+      "sectorId": "sector-healthcare",
+      "amount": 1221000,
+      "status": "Charged Off",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0308",
+      "borrowerId": "borrower-0308",
+      "lenderId": "lender-regional-development-bank",
+      "lenderName": "Regional Development Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 85000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0309",
+      "borrowerId": "borrower-0309",
+      "lenderId": "lender-southwest-trust",
+      "lenderName": "Southwest Trust",
+      "sectorId": "sector-healthcare",
+      "amount": 1008000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0310",
+      "borrowerId": "borrower-0310",
+      "lenderId": "lender-highland-plains-trust",
+      "lenderName": "Highland Plains Trust",
+      "sectorId": "sector-healthcare",
+      "amount": 439000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0311",
+      "borrowerId": "borrower-0311",
+      "lenderId": "lender-panhandle-federal",
+      "lenderName": "Panhandle Federal",
+      "sectorId": "sector-healthcare",
+      "amount": 154000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0312",
+      "borrowerId": "borrower-0312",
+      "lenderId": "lender-heritage-trust-bank",
+      "lenderName": "Heritage Trust Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 596000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0313",
+      "borrowerId": "borrower-0313",
+      "lenderId": "lender-live-oak-financial",
+      "lenderName": "Live Oak Financial",
+      "sectorId": "sector-healthcare",
+      "amount": 877000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0314",
+      "borrowerId": "borrower-0314",
+      "lenderId": "lender-gulf-coast-savings",
+      "lenderName": "Gulf Coast Savings",
+      "sectorId": "sector-healthcare",
+      "amount": 111000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0315",
+      "borrowerId": "borrower-0315",
+      "lenderId": "lender-sabine-river-trust",
+      "lenderName": "Sabine River Trust",
+      "sectorId": "sector-healthcare",
+      "amount": 73000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0316",
+      "borrowerId": "borrower-0316",
+      "lenderId": "lender-texas-capital-bank",
+      "lenderName": "Texas Capital Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 1205000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0317",
+      "borrowerId": "borrower-0317",
+      "lenderId": "lender-meridian-west-bank",
+      "lenderName": "Meridian West Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 1289000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0318",
+      "borrowerId": "borrower-0318",
+      "lenderId": "lender-alamo-business-bank",
+      "lenderName": "Alamo Business Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 770000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0319",
+      "borrowerId": "borrower-0319",
+      "lenderId": "lender-cattleman-s-national",
+      "lenderName": "Cattleman's National",
+      "sectorId": "sector-healthcare",
+      "amount": 90000,
+      "status": "Charged Off",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0320",
+      "borrowerId": "borrower-0320",
+      "lenderId": "lender-prosperity-regional",
+      "lenderName": "Prosperity Regional",
+      "sectorId": "sector-healthcare",
+      "amount": 1025000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0321",
+      "borrowerId": "borrower-0321",
+      "lenderId": "lender-bayou-city-bank",
+      "lenderName": "Bayou City Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 1356000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0322",
+      "borrowerId": "borrower-0322",
+      "lenderId": "lender-trinity-merchant-bank",
+      "lenderName": "Trinity Merchant Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 195000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0323",
+      "borrowerId": "borrower-0323",
+      "lenderId": "lender-bayou-city-bank",
+      "lenderName": "Bayou City Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 650000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0324",
+      "borrowerId": "borrower-0324",
+      "lenderId": "lender-trinity-merchant-bank",
+      "lenderName": "Trinity Merchant Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 500000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0325",
+      "borrowerId": "borrower-0325",
+      "lenderId": "lender-prosperity-regional",
+      "lenderName": "Prosperity Regional",
+      "sectorId": "sector-healthcare",
+      "amount": 190000,
+      "status": "Charged Off",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0326",
+      "borrowerId": "borrower-0326",
+      "lenderId": "lender-highland-plains-trust",
+      "lenderName": "Highland Plains Trust",
+      "sectorId": "sector-healthcare",
+      "amount": 164000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0327",
+      "borrowerId": "borrower-0327",
+      "lenderId": "lender-alamo-business-bank",
+      "lenderName": "Alamo Business Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 864000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0328",
+      "borrowerId": "borrower-0328",
+      "lenderId": "lender-pecos-valley-bank",
+      "lenderName": "Pecos Valley Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 74000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0329",
+      "borrowerId": "borrower-0329",
+      "lenderId": "lender-texas-capital-bank",
+      "lenderName": "Texas Capital Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 898000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0330",
+      "borrowerId": "borrower-0330",
+      "lenderId": "lender-bluepeak-bank",
+      "lenderName": "BluePeak Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 1118000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0331",
+      "borrowerId": "borrower-0331",
+      "lenderId": "lender-bayou-city-bank",
+      "lenderName": "Bayou City Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 1177000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0332",
+      "borrowerId": "borrower-0332",
+      "lenderId": "lender-alamo-business-bank",
+      "lenderName": "Alamo Business Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 190000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0333",
+      "borrowerId": "borrower-0333",
+      "lenderId": "lender-southwest-trust",
+      "lenderName": "Southwest Trust",
+      "sectorId": "sector-healthcare",
+      "amount": 1260000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0334",
+      "borrowerId": "borrower-0334",
+      "lenderId": "lender-panhandle-federal",
+      "lenderName": "Panhandle Federal",
+      "sectorId": "sector-healthcare",
+      "amount": 839000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0335",
+      "borrowerId": "borrower-0335",
+      "lenderId": "lender-prosperity-regional",
+      "lenderName": "Prosperity Regional",
+      "sectorId": "sector-healthcare",
+      "amount": 702000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0336",
+      "borrowerId": "borrower-0336",
+      "lenderId": "lender-southwest-trust",
+      "lenderName": "Southwest Trust",
+      "sectorId": "sector-healthcare",
+      "amount": 1292000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0337",
+      "borrowerId": "borrower-0337",
+      "lenderId": "lender-panhandle-federal",
+      "lenderName": "Panhandle Federal",
+      "sectorId": "sector-healthcare",
+      "amount": 390000,
+      "status": "Charged Off",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0338",
+      "borrowerId": "borrower-0338",
+      "lenderId": "lender-silverline-federal",
+      "lenderName": "Silverline Federal",
+      "sectorId": "sector-healthcare",
+      "amount": 1103000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0339",
+      "borrowerId": "borrower-0339",
+      "lenderId": "lender-bluepeak-bank",
+      "lenderName": "BluePeak Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 1212000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0340",
+      "borrowerId": "borrower-0340",
+      "lenderId": "lender-live-oak-financial",
+      "lenderName": "Live Oak Financial",
+      "sectorId": "sector-healthcare",
+      "amount": 1161000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0341",
+      "borrowerId": "borrower-0341",
+      "lenderId": "lender-lone-star-community-bank",
+      "lenderName": "Lone Star Community Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 1393000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0342",
+      "borrowerId": "borrower-0342",
+      "lenderId": "lender-alamo-business-bank",
+      "lenderName": "Alamo Business Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 1022000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0343",
+      "borrowerId": "borrower-0343",
+      "lenderId": "lender-rio-grande-financial",
+      "lenderName": "Rio Grande Financial",
+      "sectorId": "sector-healthcare",
+      "amount": 490000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0344",
+      "borrowerId": "borrower-0344",
+      "lenderId": "lender-meridian-west-bank",
+      "lenderName": "Meridian West Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 242000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0345",
+      "borrowerId": "borrower-0345",
+      "lenderId": "lender-trinity-merchant-bank",
+      "lenderName": "Trinity Merchant Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 721000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0346",
+      "borrowerId": "borrower-0346",
+      "lenderId": "lender-texas-capital-bank",
+      "lenderName": "Texas Capital Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 1039000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0347",
+      "borrowerId": "borrower-0347",
+      "lenderId": "lender-pecos-valley-bank",
+      "lenderName": "Pecos Valley Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 310000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0348",
+      "borrowerId": "borrower-0348",
+      "lenderId": "lender-bayou-city-bank",
+      "lenderName": "Bayou City Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 308000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0349",
+      "borrowerId": "borrower-0349",
+      "lenderId": "lender-sabine-river-trust",
+      "lenderName": "Sabine River Trust",
+      "sectorId": "sector-healthcare",
+      "amount": 146000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    },
+    {
+      "id": "loan-0350",
+      "borrowerId": "borrower-0350",
+      "lenderId": "lender-heritage-trust-bank",
+      "lenderName": "Heritage Trust Bank",
+      "sectorId": "sector-healthcare",
+      "amount": 268000,
+      "status": "Active",
+      "approvedFY": 2023,
+      "state": "TX"
+    }
+  ]
+}
