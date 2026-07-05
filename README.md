@@ -4,7 +4,7 @@ An interactive knowledge graph that lets you explore commercial lending concentr
 patterns across industry sectors, lenders, and loan outcomes — three-hop traversals,
 visualized live, with plain-English synthesized answers instead of raw tables.
 
-**Live app:** _[add your Vercel URL here after deploying]_
+**Live app:** https://tcs-knowledge-graph.vercel.app/
 
 > ⚠️ **Data note:** This build runs on a synthetic, illustrative dataset (350 loans)
 > structurally modeled on the real SBA 7(a) FOIA public dataset schema. No row
