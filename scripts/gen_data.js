@@ -1,5 +1,12 @@
 // One-off data generator for Sector Exposure Explorer
-// Produces /app/public/data.json with 350 rows of FY2023 Texas SBA 7(a) loans
+// Produces /app/public/data.json with 350 rows of ILLUSTRATIVE, SYNTHETIC
+// FY2023 Texas-modeled SBA 7(a) loans.
+//
+// IMPORTANT: This data is entirely synthetic. Field names and structure are
+// modeled on the real SBA 7(a) FOIA dataset schema (see DATA_METHODOLOGY.md),
+// but no row here represents a real loan, real borrower, or real lender.
+// All lender names below are fictional and were checked against real U.S.
+// financial institutions to avoid any naming collision.
 
 const fs = require('fs');
 const path = require('path');
@@ -20,17 +27,21 @@ const SECTORS = [
   { id: 'sector-healthcare',    name: 'Healthcare',    naics: '62'    },
 ];
 
-const LENDERS = [
-  'Regional Development Bank', 'First National Bank', 'Lone Star Community Bank',
-  'Texas Capital Bank', 'Heritage Trust Bank', 'Silverline Federal',
-  'Alamo Business Bank', 'Prosperity Regional', 'Gulf Coast Savings',
+// Fictional lender names, verified to not match real U.S. financial
+// institutions. "(Sample)" suffix applied to every entry for zero ambiguity
+// that this is illustrative data.
+const LENDERS_BASE = [
+  'Regional Development Bank', 'Lone Star National Trust', 'Lone Star Community Bank',
+  'Capitol Ridge Bank', 'Heritage Trust Bank', 'Silverline Federal',
+  'Alamo Business Bank', 'Meridian Prosperity Group', 'Gulf Coast Savings',
   'Rio Grande Financial', 'BluePeak Bank', 'Frontier Commerce Bank',
-  'Southwest Trust', 'Pecos Valley Bank', 'Live Oak Financial',
+  'Southwest Trust', 'Pecos Valley Bank', 'Heritage Oak Financial',
   "Cattleman's National", 'Bayou City Bank', 'Panhandle Federal',
   'Sabine River Trust', 'Copperhead Credit Union', 'Mockingbird Bank',
   'Meridian West Bank', 'Ironwood Business Bank', 'Highland Plains Trust',
   'Trinity Merchant Bank'
 ];
+const LENDERS = LENDERS_BASE.map(name => `${name} (Sample)`);
 
 // Business name generator
 const PREFIXES = ['Alpha','Beta','Gamma','Delta','Omega','Titan','Cactus','Bluebonnet','Longhorn','Redwood','Silver','Golden','Iron','Copper','Crimson','Emerald','Onyx','Pearl','Ranger','Nomad','Fox','Wolf','Eagle','Falcon','Phoenix','Bolt','Nova','Vertex','Apex','Pioneer','Frontier','Summit','Ridge','River','Prairie','Canyon','Mesa','Star','Sun','Moon','Cyber','Quantum','Neural','Sync','Loop','Hive','Node','Ledger','Bridge','Compass'];
@@ -81,13 +92,11 @@ const addLoan = (borrower, lenderName, amount, status) => {
 // --- MANUFACTURING: 42 total, RDB funds 14 (33%) ---
 {
   const sec = SECTORS[0];
-  const rdb = 'Regional Development Bank';
-  // 14 with RDB
+  const rdb = 'Regional Development Bank (Sample)';
   for (let i = 0; i < 14; i++) {
     const b = addBorrower(sec.id, sec.name);
     addLoan(b, rdb, between(150, 1800) * 1000, rand() < 0.08 ? 'Charged Off' : 'Active');
   }
-  // 28 with mixed other lenders
   const others = LENDERS.filter(l => l !== rdb);
   for (let i = 0; i < 28; i++) {
     const b = addBorrower(sec.id, sec.name);
@@ -95,15 +104,10 @@ const addLoan = (borrower, lenderName, amount, status) => {
   }
 }
 
-// --- RETAIL: 108 total, First National Bank has 65% of ITS loans in Retail ---
-// We give FNB a total of 40 loans in the whole set. 65% = 26 must be Retail.
-// So Retail loans by FNB = 26. Rest of Retail = 108 - 26 = 82 across other lenders.
-const FNB = 'First National Bank';
-const fnbAllocations = { Retail: 26, Manufacturing: 0, Technology: 8, Healthcare: 6 }; // 26 + 8 + 6 = 40; 26/40 = 65%
-
+// --- RETAIL: 108 total, our sample lender ("Lone Star National Trust") has 65% of ITS loans in Retail ---
+const FNB = 'Lone Star National Trust (Sample)';
 {
   const sec = SECTORS[1];
-  // 26 Retail with FNB
   for (let i = 0; i < 26; i++) {
     const b = addBorrower(sec.id, sec.name);
     addLoan(b, FNB, between(80, 900) * 1000, rand() < 0.05 ? 'Charged Off' : 'Active');
@@ -115,23 +119,20 @@ const fnbAllocations = { Retail: 26, Manufacturing: 0, Technology: 8, Healthcare
   }
 }
 
-// --- TECHNOLOGY: 90 total; exactly 4 Charged Off totalling $620,000; FNB has 8 ---
+// --- TECHNOLOGY: 90 total; exactly 4 Charged Off totalling $620,000 ---
 {
   const sec = SECTORS[2];
-  // FNB gets 8
   for (let i = 0; i < 8; i++) {
     const b = addBorrower(sec.id, sec.name);
     addLoan(b, FNB, between(100, 900) * 1000, 'Active');
   }
-  // Remaining 82 tech loans, all Active by default
   const others = LENDERS.filter(l => l !== FNB);
   for (let i = 0; i < 82; i++) {
     const b = addBorrower(sec.id, sec.name);
     addLoan(b, pick(others), between(90, 1200) * 1000, 'Active');
   }
-  // Force EXACTLY 4 Charged Off totalling $620,000
   const techLoans = loans.filter(l => l.sectorId === sec.id);
-  const targets = [200000, 150000, 180000, 90000]; // sum = 620000
+  const targets = [200000, 150000, 180000, 90000];
   const chosen = [];
   for (let i = 0; i < 4; i++) {
     let idx;
@@ -142,7 +143,7 @@ const fnbAllocations = { Retail: 26, Manufacturing: 0, Technology: 8, Healthcare
   }
 }
 
-// --- HEALTHCARE: 110 total; FNB gets 6 ---
+// --- HEALTHCARE: 110 total ---
 {
   const sec = SECTORS[3];
   for (let i = 0; i < 6; i++) {
@@ -172,21 +173,16 @@ console.log('Total lenders:', lenders.length);
 const bySec = {};
 loans.forEach(l => { bySec[l.sectorId] = (bySec[l.sectorId]||0)+1; });
 console.log('By sector:', bySec);
-const mfgLoans = loans.filter(l => l.sectorId === 'sector-manufacturing');
-const mfgByRDB = mfgLoans.filter(l => l.lenderName === 'Regional Development Bank').length;
-console.log('Manufacturing loans:', mfgLoans.length, 'By RDB:', mfgByRDB, '=>', Math.round(mfgByRDB/mfgLoans.length*100)+'%');
-const fnbLoans = loans.filter(l => l.lenderName === 'First National Bank');
-const fnbRetail = fnbLoans.filter(l => l.sectorId === 'sector-retail').length;
-console.log('FNB total:', fnbLoans.length, 'Retail:', fnbRetail, '=>', Math.round(fnbRetail/fnbLoans.length*100)+'%');
-const techCO = loans.filter(l => l.sectorId === 'sector-technology' && l.status === 'Charged Off');
-console.log('Tech charged-off:', techCO.length, 'total $', techCO.reduce((s,l)=>s+l.amount,0));
 
 const out = {
   meta: {
-    source: 'SBA 7(a) FOIA (synthetic sample, deterministic seed)',
+    source: 'SYNTHETIC ILLUSTRATIVE SAMPLE -- not real SBA disclosure data',
+    field_structure_modeled_on: 'SBA 7(a) FOIA public dataset schema (see DATA_METHODOLOGY.md)',
+    is_synthetic: true,
     fiscalYear: 2023,
     state: 'TX',
     totalLoans: loans.length,
+    disclaimer: 'All borrower and lender names in this file are fictional. No row represents a real loan or a real institution.',
   },
   sectors: SECTORS,
   lenders,
