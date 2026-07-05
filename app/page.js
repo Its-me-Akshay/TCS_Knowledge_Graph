@@ -594,7 +594,7 @@ function App() {
                 // shape-encoded node (color + shape, not color alone)
                 drawShape(ctx, node.type, node.x, node.y, r, color, alpha);
 
-                if (node.type === 'sector' || node.type === 'lender' || (hoverNode && node.id === hoverNode.id)) {
+                if (node.type === 'sector' || (dims.w >= 480 && node.type === 'lender') || (hoverNode && node.id === hoverNode.id)) {
                   const fontSize = Math.max(10, 12/globalScale);
                   ctx.font = `${node.type==='sector'?'600 ':''}${fontSize}px Inter, sans-serif`;
                   ctx.textAlign = 'center';
@@ -667,7 +667,7 @@ function App() {
               {(hoverNode.type === 'sector' || hoverNode.type === 'lender') && <div className="text-[10px] text-indigo-300 mt-1">Click node to traverse</div>}
             </div>
           )}
-          <div className="absolute bottom-6 right-6 bg-slate-800/80 backdrop-blur p-4 rounded-xl border border-slate-700 shadow-2xl text-xs">
+          <div className="hidden md:block absolute bottom-6 right-6 bg-slate-800/80 backdrop-blur p-4 rounded-xl border border-slate-700 shadow-2xl text-xs">
             <div className="font-semibold text-slate-200 mb-2 uppercase tracking-wider text-[10px]">Legend</div>
             <div className="space-y-1.5">
               <LegendRow color="#10B981" shape="circle" label="Sector" />
