@@ -26,8 +26,7 @@ color-and-shape-coded network graph.
 - **Static `public/data.json`** — no backend, no database, no live API calls
 - Deployed on **Vercel**
 
-See [TECH_STACK.md](./TECH_STACK.md) (if present) or the project discussion for
-the full reasoning behind each choice.
+See [TECH_STACK.md](./TECH_STACK.md) for the full reasoning behind each choice.
 
 ## Running locally
 
